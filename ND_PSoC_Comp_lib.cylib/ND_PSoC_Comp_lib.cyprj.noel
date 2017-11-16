@@ -15,27 +15,40 @@
 </CyGuid_b0374e30-ce3a-47f2-ad85-821643292c68>
 </dataGuid>
 <dataGuid v="718b6b01-68ba-4a17-b632-d38dc61ebb3b">
-<CyGuid_718b6b01-68ba-4a17-b632-d38dc61ebb3b type_name="CyDesigner.Gde.Schematic.Symbolcatalog.CyComponentCatalogControl+CyCompCatalogData" version="1" tab="Default">
+<CyGuid_718b6b01-68ba-4a17-b632-d38dc61ebb3b type_name="CyDesigner.Gde.Schematic.Symbolcatalog.CyComponentCatalogControl+CyCompCatalogData" version="1" tab="CDC">
 <tree_states_tab_names>
 <v>CDC</v>
 <v>Cypress</v>
-<v>Default</v>
 <v>FMx</v>
 <v>Off-Chip</v>
 </tree_states_tab_names>
 <tree_states>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CDC Component Catalog\UDB\TDust_UDB\Simple_Counter [v1.0]">
 <ExpandedNodeIds>
 <v>CDC Component Catalog</v>
+<v>CDC Component Catalog\OffChip</v>
+<v>CDC Component Catalog\OffChip\IC</v>
+<v>CDC Component Catalog\UDB</v>
+<v>CDC Component Catalog\UDB\TDust_UDB</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>CDC Component Catalog</v>
 <v>CDC Component Catalog\Digital</v>
 <v>CDC Component Catalog\Display</v>
 <v>CDC Component Catalog\LCD</v>
+<v>CDC Component Catalog\OffChip</v>
+<v>CDC Component Catalog\OffChip\Connector</v>
+<v>CDC Component Catalog\OffChip\IC</v>
+<v>CDC Component Catalog\OffChip\IC\Si5351A [v0.0]</v>
+<v>CDC Component Catalog\OffChip\IC\WM8731 [v0.0]</v>
 <v>CDC Component Catalog\Off-Chip</v>
 <v>CDC Component Catalog\Synthesiser</v>
 <v>CDC Component Catalog\UDB</v>
+<v>CDC Component Catalog\UDB\TDust_UDB</v>
+<v>CDC Component Catalog\UDB\TDust_UDB\Simple_Counter [v1.0]</v>
+<v>CDC Component Catalog\UDB\TDust_UDB\Simple_TL_Control [v1.0]</v>
+<v>CDC Component Catalog\UDB\TDust_UDB\State_Machine [v1.0]</v>
+<v>CDC Component Catalog\UDB\TDust_UDB\TrafficLightController [v1.0]</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -60,20 +73,6 @@
 <v>Cypress Component Catalog\Primitive</v>
 <v>Cypress Component Catalog\System</v>
 <v>Cypress Component Catalog\Thermal Management</v>
-</VisibleNodeIds>
-</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Default Component Catalog\Components\WM8731 [v0.0]">
-<ExpandedNodeIds>
-<v>Default Component Catalog</v>
-<v>Default Component Catalog\Components</v>
-</ExpandedNodeIds>
-<VisibleNodeIds>
-<v>Default Component Catalog</v>
-<v>Default Component Catalog\Components</v>
-<v>Default Component Catalog\Components\Jack_TRS_SW [v0.0]</v>
-<v>Default Component Catalog\Components\JackAudio_TRRS_SW [v0.0]</v>
-<v>Default Component Catalog\Components\Si5351A_ext [v0.0]</v>
-<v>Default Component Catalog\Components\WM8731 [v0.0]</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">

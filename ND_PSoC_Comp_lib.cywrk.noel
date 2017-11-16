@@ -27,7 +27,7 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Source Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_PSoC_Comp_lib\ND_PSoC_Comp_lib">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731">
 <ExpandedNodeIds>
 <v>ND_PSoC_Comp_lib</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib</v>
@@ -40,6 +40,7 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\PSoC5\JackAudio_TRRS_SW.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\JackAudio_TRRS_SW.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_ext</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_ext\Si5351A_ext.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_ext\Si5351A_ext.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysch</v>
@@ -59,6 +60,7 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\PSoC5\JackAudio_TRRS_SW.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\JackAudio_TRRS_SW.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_ext</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_ext\Si5351A_ext.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_ext\Si5351A_ext.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysch</v>
@@ -104,6 +106,7 @@
 <name v=".\ND_PSoC_Comp_lib.cylib\JackAudio_TRRS_SW\JackAudio_TRRS_SW.cysym" />
 <name v=".\ND_PSoC_Comp_lib.cylib\JackAudio_TRRS_SW\PSoC5\JackAudio_TRRS_SW.cysch" />
 <name v=".\ND_PSoC_Comp_lib.cylib\Jack_TRS_SW\Jack_TRS_SW.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\Si5351A_ext\Si5351A_ext.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -111,7 +114,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 799" SelectedTabbedMdiWindow="79c6bd4c-1d96-4f6b-a0e5-06d441ed5a54"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731_sch\WM8731_sch.cysym" Guid="a31cf875-a504-42a1-b674-0c4d4a438afd" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_ext\Si5351A_ext.cysym" Guid="2a857b12-b645-4e60-9870-e15446f292e0" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731\WM8731.cysym" Guid="79c6bd4c-1d96-4f6b-a0e5-06d441ed5a54" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731\WM8731.cysch" Guid="1c4d8476-40f7-439b-b18e-b9604a92cc11" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\JackAudio_TRRS_SW\JackAudio_TRRS_SW.cysym" Guid="aa1ad42c-6bb3-4bbd-aad4-2b846775a389" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\JackAudio_TRRS_SW\PSoC5\JackAudio_TRRS_SW.cysch" Guid="4efc35f4-42fe-4732-a931-9f32110ec5a1" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Jack_TRS_SW\Jack_TRS_SW.cysym" Guid="362b759b-5c65-4708-82a0-74400ad76a02" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="a31cf875-a504-42a1-b674-0c4d4a438afd"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731_sch\WM8731_sch.cysym" Guid="a31cf875-a504-42a1-b674-0c4d4a438afd" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_ext\Si5351A_ext.cysym" Guid="2a857b12-b645-4e60-9870-e15446f292e0" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731\WM8731.cysym" Guid="79c6bd4c-1d96-4f6b-a0e5-06d441ed5a54" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731\WM8731.cysch" Guid="1c4d8476-40f7-439b-b18e-b9604a92cc11" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\JackAudio_TRRS_SW\JackAudio_TRRS_SW.cysym" Guid="aa1ad42c-6bb3-4bbd-aad4-2b846775a389" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\JackAudio_TRRS_SW\PSoC5\JackAudio_TRRS_SW.cysch" Guid="4efc35f4-42fe-4732-a931-9f32110ec5a1" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Jack_TRS_SW\Jack_TRS_SW.cysym" Guid="362b759b-5c65-4708-82a0-74400ad76a02" /><DocumentWindow Key="Y:\cygwin64\home\noel\projects\PSoC_5LP\Components\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_ext\Si5351A_ext.cysch" Guid="8b174e2f-cd18-43dd-b455-f28d7ae8a359" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
