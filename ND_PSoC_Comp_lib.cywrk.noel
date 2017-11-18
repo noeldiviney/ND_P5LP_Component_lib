@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -27,13 +27,15 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Source Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDual_v0_0">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0">
 <ExpandedNodeIds>
 <v>ND_PSoC_Comp_lib</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272\CS4272.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDual_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDual_v0_0\DiodeSchottkyDual_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW\PSoC5</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW\PSoC5\Jack_TRS_SW.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW\Jack_TRS_SW.cysym</v>
@@ -70,6 +72,8 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDual_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDual_v0_0\DiodeSchottkyDual_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
@@ -118,13 +122,8 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.h" />
-<name v=".\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.c" />
-<name v=".\ND_PSoC_Comp_lib.cylib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" />
 <name v=".\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDual_v0_0\DiodeSchottkyDual_v0_0.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -132,7 +131,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="fcab798f-4741-4b42-bd8d-23b9a6153295"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="3171106b-e242-4792-afd7-7940371cd311" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.h" Guid="7bcb1377-2e35-4dfe-bb8f-02358494ccfb" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.c" Guid="0c2e86d5-728f-4ac9-8be6-a10da541455b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym" Guid="a1f24adb-847f-411d-83b5-5efd03d03d25" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym" Guid="189a3d99-781d-4860-bc69-b725b3cef753" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" Guid="177d5a00-5d36-4a11-80c6-3a5cc6fae292" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDual_v0_0\DiodeSchottkyDual_v0_0.cysym" Guid="fcab798f-4741-4b42-bd8d-23b9a6153295" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1314, 713" SelectedTabbedMdiWindow="a9f8ebec-42f3-4a1e-9c96-f22fce71463c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDual_v0_0\DiodeSchottkyDual_v0_0.cysym" Guid="5f5df3fe-7dab-460f-aabe-09a00b9a3666" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym" Guid="a9f8ebec-42f3-4a1e-9c96-f22fce71463c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
