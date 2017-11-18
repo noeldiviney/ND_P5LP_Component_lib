@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -38,12 +38,12 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\PSoC5</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\PSoC5\JackAudio_TRRS_SW.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW\JackAudio_TRRS_SW.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDual_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A\PCF8574A.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A\PCF8574A.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW\Si5351A_HW.cysch</v>
@@ -68,12 +68,12 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDual_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW</v>
@@ -127,7 +127,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="a1f24adb-847f-411d-83b5-5efd03d03d25"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="3171106b-e242-4792-afd7-7940371cd311" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.h" Guid="7bcb1377-2e35-4dfe-bb8f-02358494ccfb" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.c" Guid="0c2e86d5-728f-4ac9-8be6-a10da541455b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym" Guid="a1f24adb-847f-411d-83b5-5efd03d03d25" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym" Guid="189a3d99-781d-4860-bc69-b725b3cef753" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" Guid="177d5a00-5d36-4a11-80c6-3a5cc6fae292" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="177d5a00-5d36-4a11-80c6-3a5cc6fae292"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="3171106b-e242-4792-afd7-7940371cd311" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.h" Guid="7bcb1377-2e35-4dfe-bb8f-02358494ccfb" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\API\Si5351A.c" Guid="0c2e86d5-728f-4ac9-8be6-a10da541455b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym" Guid="a1f24adb-847f-411d-83b5-5efd03d03d25" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym" Guid="189a3d99-781d-4860-bc69-b725b3cef753" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" Guid="177d5a00-5d36-4a11-80c6-3a5cc6fae292" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
