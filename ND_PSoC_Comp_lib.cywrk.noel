@@ -77,7 +77,6 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK\DualSerAK.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH\DualSerAKH.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
@@ -136,7 +135,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1314, 713" SelectedTabbedMdiWindow="c1c75542-c2d1-4d73-85de-6da09657473f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym" Guid="a9f8ebec-42f3-4a1e-9c96-f22fce71463c" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="aedb85e6-5c11-44c7-b5f9-d4acfea3ab57" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAKH\DualSerAKH.cysym" Guid="c1c75542-c2d1-4d73-85de-6da09657473f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1314, 713" SelectedTabbedMdiWindow="978a56d8-1e67-40a9-981f-d01c659b6c93"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym" Guid="a9f8ebec-42f3-4a1e-9c96-f22fce71463c" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="aedb85e6-5c11-44c7-b5f9-d4acfea3ab57" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAKH\DualSerAKH.cysym" Guid="978a56d8-1e67-40a9-981f-d01c659b6c93" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
