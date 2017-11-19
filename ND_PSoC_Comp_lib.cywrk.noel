@@ -77,6 +77,7 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK\DualSerAK.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH\DualSerAKH.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
