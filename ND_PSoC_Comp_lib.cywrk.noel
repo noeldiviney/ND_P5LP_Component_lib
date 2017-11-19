@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -36,10 +36,10 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_2</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_2\DualSerAK_2.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2\DualSerAKH_2.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0\DualSerAK_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2\DualSerAKH_2.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW\PSoC5</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW\PSoC5\Jack_TRS_SW.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW\Jack_TRS_SW.cysym</v>
@@ -80,10 +80,10 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DiodeSchottkyDualV_v0_0\DiodeSchottkyDualV_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_2</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_2\DualSerAK_2.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2\DualSerAKH_2.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0\DualSerAK_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAKH_2\DualSerAKH_2.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\JackAudio_TRRS_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDiff_v0_0</v>
