@@ -139,6 +139,7 @@
 <name v=".\ND_PSoC_Comp_lib.cylib\Template_v0_0\Template_v0_0.cysym" />
 <name v=".\ND_PSoC_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" />
 <name v=".\ND_PSoC_Comp_lib.cylib\CS4272\CS4272.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -146,7 +147,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="3cf2487e-7250-4820-a53e-5f2bf3bd7b52"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Template_v0_0\Template_v0_0.cysym" Guid="eda86bdd-614b-496a-9217-8b33a0346620" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" Guid="8f6c9c4a-5542-495a-88dc-5c7f1379837d" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CS4272\CS4272.cysym" Guid="3cf2487e-7250-4820-a53e-5f2bf3bd7b52" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="1b6d04bf-acab-4df2-9668-9b64505f4a51"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Template_v0_0\Template_v0_0.cysym" Guid="eda86bdd-614b-496a-9217-8b33a0346620" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" Guid="8f6c9c4a-5542-495a-88dc-5c7f1379837d" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CS4272\CS4272.cysym" Guid="3cf2487e-7250-4820-a53e-5f2bf3bd7b52" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym" Guid="1b6d04bf-acab-4df2-9668-9b64505f4a51" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
