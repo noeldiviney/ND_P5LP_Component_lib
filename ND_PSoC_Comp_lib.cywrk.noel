@@ -35,12 +35,10 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272\CS4272.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK_v0_0\DualParKK_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_1_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_1_v0_0\DualSerAK_1_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0\DualSerAK_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK\DualParKK.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK\DualSerAK.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRRS</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRRS\Jack_TRRS.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS</v>
@@ -78,12 +76,10 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS4272\CS4272.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK_v0_0\DualParKK_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_1_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_1_v0_0\DualSerAK_1_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK_v0_0\DualSerAK_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK\DualParKK.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK\DualSerAK.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRRS</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRRS\Jack_TRRS.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS</v>
@@ -136,10 +132,8 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\ND_PSoC_Comp_lib.cylib\DualParKK_v0_0\DualParKK_v0_0.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\Jack_TRS\Jack_TRS.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\Jack_TRRS\Jack_TRRS.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -147,7 +141,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="99d6d6e5-b21c-4d0a-a970-5d933b783f1a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualParKK_v0_0\DualParKK_v0_0.cysym" Guid="9a67912e-f091-4166-bd41-343088b4648b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" Guid="1ae3203c-8fbd-426b-a25d-8b2e7ecf0e2f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Jack_TRS\Jack_TRS.cysym" Guid="07773554-7a90-475a-9456-ae83cf62f5f0" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Jack_TRRS\Jack_TRRS.cysym" Guid="99d6d6e5-b21c-4d0a-a970-5d933b783f1a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="29509b50-ef91-4804-bb89-804ec113efde"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" Guid="29509b50-ef91-4804-bb89-804ec113efde" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="b012f62e-cf9f-4259-8d83-d6f57dcceca6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
