@@ -49,24 +49,32 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpDual_v0_0\OpAmpDual_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A\PCF8574A.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A\PCF8574A.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW\Si5351A_HW.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW\Si5351A_HW.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\API</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\API\Si5351A.c</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\API\Si5351A.h</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\Si5351A_SW.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8602</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8602\Si8602.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8661</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8661\Si8661.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Template_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Template_v0_0\Template_v0_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.c</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.h</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch\WM8731_sch.cysym</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -91,15 +99,32 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A\PCF8574A.cysch</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\PCF8574A\PCF8574A.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW\Si5351A_HW.cysch</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_HW\Si5351A_HW.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\API</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\API\Si5351A.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\API\Si5351A.h</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si5351A_SW\Si5351A_SW.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8602</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8602\Si8602.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8661</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8661\Si8661.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Template_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Template_v0_0\Template_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.h</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysch</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch\WM8731_sch.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -133,7 +158,6 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" />
-<name v=".\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -141,7 +165,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="29509b50-ef91-4804-bb89-804ec113efde"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" Guid="29509b50-ef91-4804-bb89-804ec113efde" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="b012f62e-cf9f-4259-8d83-d6f57dcceca6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="1833c85b-06a3-4437-a260-039f02b9bc5a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" Guid="1833c85b-06a3-4437-a260-039f02b9bc5a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
