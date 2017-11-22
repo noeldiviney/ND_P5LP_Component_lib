@@ -69,11 +69,8 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.c</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.h</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysch</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch\WM8731_sch.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_HW</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_HW\WM8731_HW.cysym</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>ND_PSoC_Comp_lib</v>
@@ -116,11 +113,8 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.c</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\printf.h</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysch</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731\WM8731.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_sch\WM8731_sch.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_HW</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_HW\WM8731_HW.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -160,6 +154,7 @@
 <name v=".\ND_PSoC_Comp_lib.cylib\Si8661_HW\Si8661_HW.cysym" />
 <name v=".\ND_PSoC_Comp_lib.cylib\Si8602_HW\Si8602_HW.cysym" />
 <name v=".\ND_PSoC_Comp_lib.cylib\PCF8574_HW\PCF8574_HW.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\WM8731_HW\WM8731_HW.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -167,7 +162,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="98c86552-12a1-4bdb-b247-ec5c28dd6859"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" Guid="4d1903ce-a0ad-4fce-a8e3-60b55b3590dd" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="0b0c9f81-3ebd-443b-8086-d983e5eba0ce" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="465b21c2-4e39-4f68-8bc0-ea257e32ee36" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_HW\Si5351A_HW.cysym" Guid="ab24cf28-01e3-48c0-a8b4-06cc04b3b8b8" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si8661_HW\Si8661_HW.cysym" Guid="135c65b0-e69c-4b67-91ae-344f7ce1c511" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si8602_HW\Si8602_HW.cysym" Guid="cc39c5dd-f8d3-464b-ae37-016dbf93bb22" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\PCF8574_HW\PCF8574_HW.cysym" Guid="98c86552-12a1-4bdb-b247-ec5c28dd6859" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1605, 769" SelectedTabbedMdiWindow="6fddc1c6-8c95-4d66-a72a-ad6b6010192a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualParKK\DualParKK.cysym" Guid="4d1903ce-a0ad-4fce-a8e3-60b55b3590dd" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="0b0c9f81-3ebd-443b-8086-d983e5eba0ce" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="465b21c2-4e39-4f68-8bc0-ea257e32ee36" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_HW\Si5351A_HW.cysym" Guid="ab24cf28-01e3-48c0-a8b4-06cc04b3b8b8" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si8661_HW\Si8661_HW.cysym" Guid="135c65b0-e69c-4b67-91ae-344f7ce1c511" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si8602_HW\Si8602_HW.cysym" Guid="cc39c5dd-f8d3-464b-ae37-016dbf93bb22" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\PCF8574_HW\PCF8574_HW.cysym" Guid="98c86552-12a1-4bdb-b247-ec5c28dd6859" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\WM8731_HW\WM8731_HW.cysym" Guid="6fddc1c6-8c95-4d66-a72a-ad6b6010192a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
