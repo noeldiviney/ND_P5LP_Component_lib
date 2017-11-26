@@ -309,7 +309,7 @@ void `$INSTANCE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($INSTANCE_NAME . "_
 
 #else    
    	
-	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
+	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
                                   `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
