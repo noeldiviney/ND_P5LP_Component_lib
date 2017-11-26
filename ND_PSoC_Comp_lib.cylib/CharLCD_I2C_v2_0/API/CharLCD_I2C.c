@@ -21,8 +21,8 @@
 	#include "I2C_`$INSTANCE_NAME`_PVT.h"
 	#include "I2C_`$INSTANCE_NAME`_I2C_PVT.h"
 #else
-	#include "I2C_`$INSTANCE_NAME`.h"
-	#include "I2C_`$INSTANCE_NAME`_PVT.h"
+	#include "`$INSTANCE_NAME`.h"
+	#include "`$INSTANCE_NAME`_PVT.h"
 #endif /*PSOC4*/
 
 /* Stores the state of conponent. Indicates wherewer component is 
