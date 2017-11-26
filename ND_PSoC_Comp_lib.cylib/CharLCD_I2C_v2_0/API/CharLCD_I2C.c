@@ -15,7 +15,7 @@
 *******************************************************************************/
 
 #include "CyLib.h"
-#include "`$INSTANCE_NAME`_I2C.h"
+#include "`$INSTANCE_NAME`.h"
 
 #if(CY_PSOC4)
 	#include "I2C_`$INSTANCE_NAME`_PVT.h"
