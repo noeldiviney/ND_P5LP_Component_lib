@@ -31,6 +31,24 @@
 <ExpandedNodeIds>
 <v>ND_PSoC_Comp_lib</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\CharLCD_I2C.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\CharLCD_I2C.h</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\CharLCD_I2C_PM.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\I2C_BarGraph.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\I2C_CustChars.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cyapicustomizer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycharlcdcontrol.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycharlcdcontrol.designer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycharlcdcontrol.resx</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomcharacter.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomcharacter.designer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomcharacter.resx</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomizer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\CharLCD_I2C_v2_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\CharLCD_I2C_v2_0.pdf</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Coax_SMB_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS7272_HW</v>
@@ -79,6 +97,24 @@
 <VisibleNodeIds>
 <v>ND_PSoC_Comp_lib</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\CharLCD_I2C.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\CharLCD_I2C.h</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\CharLCD_I2C_PM.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\I2C_BarGraph.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\API\I2C_CustChars.c</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cyapicustomizer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycharlcdcontrol.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycharlcdcontrol.designer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycharlcdcontrol.resx</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomcharacter.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomcharacter.designer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomcharacter.resx</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\Custom\cycustomizer.cs</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\CharLCD_I2C_v2_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CharLCD_I2C_v2_0\CharLCD_I2C_v2_0.pdf</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Coax_SMB_v0_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CS7272_HW</v>
@@ -90,6 +126,7 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualSerAK\DualSerAK.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\ERM2004</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\ERM2004\ERM2004.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRRS</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRRS\Jack_TRRS.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Jack_TRS</v>
@@ -112,16 +149,6 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8602_HW</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8602_HW\Si8602_HW.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8661_HW</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Si8661_HW\Si8661_HW.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Template_v0_0</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Template_v0_0\Template_v0_0.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\TinyPrintf.c</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\API\TinyPrintf.h</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_HW</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\WM8731_HW\WM8731_HW.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -155,6 +182,7 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\ND_PSoC_Comp_lib.cylib\ERM2004\ERM2004.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -162,7 +190,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1314, 713" SelectedTabbedMdiWindow="73f3deb9-6580-463d-a184-20f5353ce62d"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\ERM2004\ERM2004.cysym" Guid="73f3deb9-6580-463d-a184-20f5353ce62d" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1314, 713" SelectedTabbedMdiWindow="6aface82-7219-419b-927e-c2545132992a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\ERM2004\ERM2004.cysym" Guid="73f3deb9-6580-463d-a184-20f5353ce62d" /><DocumentWindow Key="C:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="6aface82-7219-419b-927e-c2545132992a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
