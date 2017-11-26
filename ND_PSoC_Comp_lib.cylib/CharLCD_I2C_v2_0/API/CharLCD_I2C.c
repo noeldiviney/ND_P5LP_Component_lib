@@ -310,7 +310,7 @@ void `$INSTANCE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($INSTANCE_NAME . "_
 #else    
    	
 	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
-                                  I2C_`$INSTANCE_NAME`_MODE_COMPLETE_XFER);
+                                  `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
 
@@ -353,7 +353,7 @@ void `$INSTANCE_NAME`_WriteControl(uint8 cByte) `=ReentrantKeil($INSTANCE_NAME .
                                   I2C_`$INSTANCE_NAME`_I2C_MODE_COMPLETE_XFER);
 #else    
    	
-	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
+	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
                                   `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
@@ -393,7 +393,7 @@ void `$INSTANCE_NAME`_WrtCntrlUpNib(uint8 cByte) `=ReentrantKeil($INSTANCE_NAME 
 	
 #else    
    	
-	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_UPPER_NIB_PACKET_SIZE, \
+	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_UPPER_NIB_PACKET_SIZE, \
                                   `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
