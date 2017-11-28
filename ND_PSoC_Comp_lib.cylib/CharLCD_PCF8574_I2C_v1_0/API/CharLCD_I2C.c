@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: `$INSTANCE_NAME`_I2C.c
+* File Name: `$I2C_SLAVE_NAME`.c
 * Version `$CY_MAJOR_VERSION`.`$CY_MINOR_VERSION`
 *
 * Description:
@@ -15,26 +15,26 @@
 *******************************************************************************/
 
 #include "CyLib.h"
-#include "`$INSTANCE_NAME`.h"
+#include "`$I2C_SLAVE_NAME`.h"
 
 #if(CY_PSOC4)
-	#include "I2C_`$INSTANCE_NAME`_PVT.h"
-	#include "I2C_`$INSTANCE_NAME`_I2C_PVT.h"
+	#include "`$I2C_MASTER_NAME`.h"
+	#include "`$I2C_MASTER_NAME`_PVT.h"
 #else
-	#include "`$INSTANCE_NAME`.h"
-//	#include "`$INSTANCE_NAME`_PVT.h"
+	#include "`$I2C_MASTER_NAME`.h"
+	#include "`$I2C_MASTER_NAME`_PVT.h"
 #endif /*PSOC4*/
 
 /* Stores the state of conponent. Indicates wherewer component is 
 * in enabled state or not.
 */
-uint8 `$INSTANCE_NAME`_enableState = 0u;
+uint8 `$I2C_SLAVE_NAME`_enableState = 0u;
 
-uint8 `$INSTANCE_NAME`_initVar = 0u;
+uint8 `$I2C_SLAVE_NAME`_initVar = 0u;
 
 
 /*******************************************************************************
-* Function Name: `$INSTANCE_NAME`_Init
+* Function Name: `$I2C_SLAVE_NAME`_Init
 ********************************************************************************
 *
 * Summary:
@@ -56,36 +56,36 @@ uint8 `$INSTANCE_NAME`_initVar = 0u;
 *  No.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_Init(void) `=ReentrantKeil($INSTANCE_NAME . "_Init")`
+void `$I2C_SLAVE_NAME`_Init(void) `=ReentrantKeil($I2C_SLAVE_NAME . "_Init")`
 {
     /* INIT CODE */
-    CyDelay(`$INSTANCE_NAME`_INIT_DELAY);									/* Delay 20 ms */
-    `$INSTANCE_NAME`_WrtCntrlUpNib(`$INSTANCE_NAME`_DISPLAY_8_BIT_INIT);   	/* Selects 8-bit mode */
-    CyDelay(`$INSTANCE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
-	`$INSTANCE_NAME`_WrtCntrlUpNib(`$INSTANCE_NAME`_DISPLAY_8_BIT_INIT);  	/* Selects 8-bit mode */
-    CyDelay(`$INSTANCE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
-	`$INSTANCE_NAME`_WrtCntrlUpNib(`$INSTANCE_NAME`_DISPLAY_8_BIT_INIT);  	/* Selects 8-bit mode */
-	CyDelay(`$INSTANCE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
-	`$INSTANCE_NAME`_WrtCntrlUpNib(`$INSTANCE_NAME`_DISPLAY_4_BIT_INIT);   	/* Selects 4-bit mode */
-	CyDelay(`$INSTANCE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
+    CyDelay(`$I2C_SLAVE_NAME`_INIT_DELAY);									/* Delay 20 ms */
+    `$I2C_SLAVE_NAME`_WrtCntrlUpNib(`$I2C_SLAVE_NAME`_DISPLAY_8_BIT_INIT);   	/* Selects 8-bit mode */
+    CyDelay(`$I2C_SLAVE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
+	`$I2C_SLAVE_NAME`_WrtCntrlUpNib(`$I2C_SLAVE_NAME`_DISPLAY_8_BIT_INIT);  	/* Selects 8-bit mode */
+    CyDelay(`$I2C_SLAVE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
+	`$I2C_SLAVE_NAME`_WrtCntrlUpNib(`$I2C_SLAVE_NAME`_DISPLAY_8_BIT_INIT);  	/* Selects 8-bit mode */
+	CyDelay(`$I2C_SLAVE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
+	`$I2C_SLAVE_NAME`_WrtCntrlUpNib(`$I2C_SLAVE_NAME`_DISPLAY_4_BIT_INIT);   	/* Selects 4-bit mode */
+	CyDelay(`$I2C_SLAVE_NAME`_INIT_UP_NIB_DELAY);								/* Delay 5 ms */
 
-	`$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_DISPLAY_4_BIT_INIT);		/* Write 4-bit Mode 2x16 or 4x20 Char */
-	CyDelay(`$INSTANCE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */
-    `$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_CLEAR_DISPLAY);			/* Clear LCD Screen */
-	CyDelay(`$INSTANCE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */
-    `$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_CURSOR_AUTO_INCR_ON);		/* Incr Cursor One Space to Right After Writes */
-	CyDelay(`$INSTANCE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */
-	`$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_DISPLAY_ON_CURSOR_OFF);	/* Display ON Cursor OFF */
- 	CyDelay(`$INSTANCE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */  
+	`$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_DISPLAY_4_BIT_INIT);		/* Write 4-bit Mode 2x16 or 4x20 Char */
+	CyDelay(`$I2C_SLAVE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */
+    `$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_CLEAR_DISPLAY);			/* Clear LCD Screen */
+	CyDelay(`$I2C_SLAVE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */
+    `$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_CURSOR_AUTO_INCR_ON);		/* Incr Cursor One Space to Right After Writes */
+	CyDelay(`$I2C_SLAVE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */
+	`$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_DISPLAY_ON_CURSOR_OFF);	/* Display ON Cursor OFF */
+ 	CyDelay(`$I2C_SLAVE_NAME`_INIT_CMD_DELAY);								/* Delay 5 ms */  
 	
-	#if(`$INSTANCE_NAME`_CUSTOM_CHAR_SET != `$INSTANCE_NAME`_NONE)
-        `$INSTANCE_NAME`_LoadCustomFonts(`$INSTANCE_NAME`_customFonts);
-    #endif /* `$INSTANCE_NAME`_CUSTOM_CHAR_SET != `$INSTANCE_NAME`_NONE */
+	#if(`$I2C_SLAVE_NAME`_CUSTOM_CHAR_SET != `$I2C_SLAVE_NAME`_NONE)
+        `$I2C_SLAVE_NAME`_LoadCustomFonts(`$I2C_SLAVE_NAME`_customFonts);
+    #endif /* `$I2C_SLAVE_NAME`_CUSTOM_CHAR_SET != `$I2C_SLAVE_NAME`_NONE */
 }
 
 
 /*******************************************************************************
-* Function Name: `$INSTANCE_NAME`_Enable									   *
+* Function Name: `$I2C_SLAVE_NAME`_Enable									   *
 ********************************************************************************
 *
 * Summary:
@@ -102,18 +102,18 @@ void `$INSTANCE_NAME`_Init(void) `=ReentrantKeil($INSTANCE_NAME . "_Init")`
 *
 * Theory:
 *  This finction has no effect when it called first time as
-*  `$INSTANCE_NAME`_Init() turns on the LCD.
+*  `$I2C_SLAVE_NAME`_Init() turns on the LCD.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_Enable(void) `=ReentrantKeil($INSTANCE_NAME . "_Enable")`
+void `$I2C_SLAVE_NAME`_Enable(void) `=ReentrantKeil($I2C_SLAVE_NAME . "_Enable")`
 {
-    `$INSTANCE_NAME`_DisplayOn();
-    `$INSTANCE_NAME`_enableState = 1u;
+    `$I2C_SLAVE_NAME`_DisplayOn();
+    `$I2C_SLAVE_NAME`_enableState = 1u;
 }
 
 
 /*******************************************************************************
-* Function Name: `$INSTANCE_NAME`_Start
+* Function Name: `$I2C_SLAVE_NAME`_Start
 ********************************************************************************
 *
 * Summary:
@@ -129,31 +129,31 @@ void `$INSTANCE_NAME`_Enable(void) `=ReentrantKeil($INSTANCE_NAME . "_Enable")`
 *
 *
 * Parameters:
-*  `$INSTANCE_NAME`_initVar - global variable.
+*  `$I2C_SLAVE_NAME`_initVar - global variable.
 *
 * Return:
-*  `$INSTANCE_NAME`_initVar - global variable.
+*  `$I2C_SLAVE_NAME`_initVar - global variable.
 *
 * Reentrant:
 *  No.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_Start(void) `=ReentrantKeil($INSTANCE_NAME . "_Start")`
+void `$I2C_SLAVE_NAME`_Start(void) `=ReentrantKeil($I2C_SLAVE_NAME . "_Start")`
 {
     /* If not initialized then perform initialization */
-    if(`$INSTANCE_NAME`_initVar == 0u)
+    if(`$I2C_SLAVE_NAME`_initVar == 0u)
     {
-        `$INSTANCE_NAME`_Init();
-        `$INSTANCE_NAME`_initVar = 1u;
+        `$I2C_SLAVE_NAME`_Init();
+        `$I2C_SLAVE_NAME`_initVar = 1u;
     }
 
     /* Turn on the LCD */
-    `$INSTANCE_NAME`_Enable();
+    `$I2C_SLAVE_NAME`_Enable();
 }
 
 
 /*******************************************************************************
-* Function Name: `$INSTANCE_NAME`_Stop
+* Function Name: `$I2C_SLAVE_NAME`_Stop
 ********************************************************************************
 *
 * Summary:
@@ -169,16 +169,16 @@ void `$INSTANCE_NAME`_Start(void) `=ReentrantKeil($INSTANCE_NAME . "_Start")`
 *  No.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_Stop(void) `=ReentrantKeil($INSTANCE_NAME . "_Stop")`
+void `$I2C_SLAVE_NAME`_Stop(void) `=ReentrantKeil($I2C_SLAVE_NAME . "_Stop")`
 {
     /* Calls LCD Off Macro */
-    `$INSTANCE_NAME`_DisplayOff();
-    `$INSTANCE_NAME`_enableState = 0u;
+    `$I2C_SLAVE_NAME`_DisplayOff();
+    `$I2C_SLAVE_NAME`_enableState = 0u;
 }
 
 
 /*******************************************************************************
-*  Function Name: `$INSTANCE_NAME`_Position
+*  Function Name: `$I2C_SLAVE_NAME`_Position
 ********************************************************************************
 *
 * Summary:
@@ -197,21 +197,21 @@ void `$INSTANCE_NAME`_Stop(void) `=ReentrantKeil($INSTANCE_NAME . "_Stop")`
 *  When there are more than 2 rows, each row must be fewer than 20 characters.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_Position(uint8 row, uint8 column) `=ReentrantKeil($INSTANCE_NAME . "_Position")`
+void `$I2C_SLAVE_NAME`_Position(uint8 row, uint8 column) `=ReentrantKeil($I2C_SLAVE_NAME . "_Position")`
 {
     switch (row)
     {
         case (uint8)0:
-            `$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_ROW_0_START + column);
+            `$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_ROW_0_START + column);
             break;
         case (uint8) 1:
-            `$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_ROW_1_START + column);
+            `$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_ROW_1_START + column);
             break;
         case (uint8) 2:
-            `$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_ROW_2_START + column);
+            `$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_ROW_2_START + column);
             break;
         case (uint8) 3:
-            `$INSTANCE_NAME`_WriteControl(`$INSTANCE_NAME`_ROW_3_START + column);
+            `$I2C_SLAVE_NAME`_WriteControl(`$I2C_SLAVE_NAME`_ROW_3_START + column);
             break;
         default:
             /* if default case is hit, invalid row argument was passed.*/
@@ -221,7 +221,7 @@ void `$INSTANCE_NAME`_Position(uint8 row, uint8 column) `=ReentrantKeil($INSTANC
 
 
 /*******************************************************************************
-* Function Name: `$INSTANCE_NAME`_PrintString
+* Function Name: `$I2C_SLAVE_NAME`_PrintString
 ********************************************************************************
 *
 * Summary:
@@ -234,7 +234,7 @@ void `$INSTANCE_NAME`_Position(uint8 row, uint8 column) `=ReentrantKeil($INSTANC
 *  None.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_PrintString(char8 const string[]) `=ReentrantKeil($INSTANCE_NAME . "_PrintString")`
+void `$I2C_SLAVE_NAME`_PrintString(char8 const string[]) `=ReentrantKeil($I2C_SLAVE_NAME . "_PrintString")`
 {
     uint8 indexU8 = 1u;
     char8 current = *string;
@@ -242,7 +242,7 @@ void `$INSTANCE_NAME`_PrintString(char8 const string[]) `=ReentrantKeil($INSTANC
     /* Until null is reached, print next character */
     while((char8) '\0' != current)
     {
-        `$INSTANCE_NAME`_WriteData((uint8)current);
+        `$I2C_SLAVE_NAME`_WriteData((uint8)current);
         current = string[indexU8];
         indexU8++;
     }
@@ -250,7 +250,7 @@ void `$INSTANCE_NAME`_PrintString(char8 const string[]) `=ReentrantKeil($INSTANC
 
 
 /*******************************************************************************
-*  Function Name: `$INSTANCE_NAME`_PutChar
+*  Function Name: `$I2C_SLAVE_NAME`_PutChar
 ********************************************************************************
 *
 * Summary:
@@ -265,14 +265,14 @@ void `$INSTANCE_NAME`_PrintString(char8 const string[]) `=ReentrantKeil($INSTANC
 *  None.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_PutChar(char8 character) `=ReentrantKeil($INSTANCE_NAME . "_PutChar")`
+void `$I2C_SLAVE_NAME`_PutChar(char8 character) `=ReentrantKeil($I2C_SLAVE_NAME . "_PutChar")`
 {
-    `$INSTANCE_NAME`_WriteData((uint8)character);
+    `$I2C_SLAVE_NAME`_WriteData((uint8)character);
 }
 
 
 /*******************************************************************************
-*  Function Name: `$INSTANCE_NAME`_WriteData
+*  Function Name: `$I2C_SLAVE_NAME`_WriteData
 ********************************************************************************
 *
 * Summary:
@@ -283,42 +283,42 @@ void `$INSTANCE_NAME`_PutChar(char8 character) `=ReentrantKeil($INSTANCE_NAME . 
 *
 *******************************************************************************/	
 
-void `$INSTANCE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($INSTANCE_NAME . "_WriteData")`
+void `$I2C_SLAVE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($I2C_SLAVE_NAME . "_WriteData")`
 
 {
-    uint8 buffer[`$INSTANCE_NAME`_BUFFER_SIZE], UPPER_NIB, LOWER_NIB;
+    uint8 buffer[`$I2C_SLAVE_NAME`_BUFFER_SIZE], UPPER_NIB, LOWER_NIB;
 	uint8 BLH_EH_RWL_RSH, BLH_EL_RWL_RSH;
 	
-	UPPER_NIB = dByte & `$INSTANCE_NAME`_UPPER_NIB_MASK;
-   	LOWER_NIB = (dByte & `$INSTANCE_NAME`_LOWER_NIB_MASK) << `$INSTANCE_NAME`_LOWER_NIB_SHIFT;
+	UPPER_NIB = dByte & `$I2C_SLAVE_NAME`_UPPER_NIB_MASK;
+   	LOWER_NIB = (dByte & `$I2C_SLAVE_NAME`_LOWER_NIB_MASK) << `$I2C_SLAVE_NAME`_LOWER_NIB_SHIFT;
 	
-	BLH_EH_RWL_RSH = `$INSTANCE_NAME`_BLH + `$INSTANCE_NAME`_EH + `$INSTANCE_NAME`_RSH;
-	BLH_EL_RWL_RSH = `$INSTANCE_NAME`_BLH + `$INSTANCE_NAME`_RSH;
+	BLH_EH_RWL_RSH = `$I2C_SLAVE_NAME`_BLH + `$I2C_SLAVE_NAME`_EH + `$I2C_SLAVE_NAME`_RSH;
+	BLH_EL_RWL_RSH = `$I2C_SLAVE_NAME`_BLH + `$I2C_SLAVE_NAME`_RSH;
 	
 	/* Initialize buffer with packet */
    
-	buffer[`$INSTANCE_NAME`_PACKET_0_POS] = UPPER_NIB | BLH_EH_RWL_RSH;
-    buffer[`$INSTANCE_NAME`_PACKET_1_POS] = UPPER_NIB | BLH_EL_RWL_RSH;
-    buffer[`$INSTANCE_NAME`_PACKET_2_POS] = LOWER_NIB | BLH_EH_RWL_RSH;
-    buffer[`$INSTANCE_NAME`_PACKET_3_POS] = LOWER_NIB | BLH_EL_RWL_RSH;
+	buffer[`$I2C_SLAVE_NAME`_PACKET_0_POS] = UPPER_NIB | BLH_EH_RWL_RSH;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_1_POS] = UPPER_NIB | BLH_EL_RWL_RSH;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_2_POS] = LOWER_NIB | BLH_EH_RWL_RSH;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_3_POS] = LOWER_NIB | BLH_EL_RWL_RSH;
     
 #if(CY_PSOC4)
 	
-	(void) `$INSTANCE_NAME`_I2CMasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
-                                  `$INSTANCE_NAME`_I2C_MODE_COMPLETE_XFER);
+	(void) I2C_`$I2C_SLAVE_NAME`_I2CMasterWriteBuf(`$I2C_SLAVE_NAME`_I2C_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
+                                  I2C_`$I2C_SLAVE_NAME`_I2C_MODE_COMPLETE_XFER);
 
 #else    
    	
-	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
-                                  `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
+	(void) `$I2C_MASTER_NAME`_MasterWriteBuf(`$I2C_SLAVE_NAME`_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
+                                  `$I2C_MASTER_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
 
-	CyDelayUs(`$INSTANCE_NAME`_DATA_DELAY_US);
+	CyDelayUs(`$I2C_SLAVE_NAME`_DATA_DELAY_US);
 }
 
 /*******************************************************************************
-*  Function Name: `$INSTANCE_NAME`_WriteControl
+*  Function Name: `$I2C_SLAVE_NAME`_WriteControl
 ********************************************************************************
 *
 * Summary:
@@ -329,40 +329,40 @@ void `$INSTANCE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($INSTANCE_NAME . "_
 *
 *******************************************************************************/	
 
-void `$INSTANCE_NAME`_WriteControl(uint8 cByte) `=ReentrantKeil($INSTANCE_NAME . "_WriteControl")`
+void `$I2C_SLAVE_NAME`_WriteControl(uint8 cByte) `=ReentrantKeil($I2C_SLAVE_NAME . "_WriteControl")`
 {
-    uint8 buffer[`$INSTANCE_NAME`_BUFFER_SIZE], UPPER_NIB, LOWER_NIB;
+    uint8 buffer[`$I2C_SLAVE_NAME`_BUFFER_SIZE], UPPER_NIB, LOWER_NIB;
 	uint8 BLH_EH_RWL_RSL, BLH_EL_RWL_RSL;
 	
-	UPPER_NIB = cByte & `$INSTANCE_NAME`_UPPER_NIB_MASK;
-   	LOWER_NIB = (cByte & `$INSTANCE_NAME`_LOWER_NIB_MASK) << `$INSTANCE_NAME`_LOWER_NIB_SHIFT;
+	UPPER_NIB = cByte & `$I2C_SLAVE_NAME`_UPPER_NIB_MASK;
+   	LOWER_NIB = (cByte & `$I2C_SLAVE_NAME`_LOWER_NIB_MASK) << `$I2C_SLAVE_NAME`_LOWER_NIB_SHIFT;
 	
-	BLH_EH_RWL_RSL = `$INSTANCE_NAME`_BLH + `$INSTANCE_NAME`_EH;
-	BLH_EL_RWL_RSL = `$INSTANCE_NAME`_BLH;
+	BLH_EH_RWL_RSL = `$I2C_SLAVE_NAME`_BLH + `$I2C_SLAVE_NAME`_EH;
+	BLH_EL_RWL_RSL = `$I2C_SLAVE_NAME`_BLH;
 	
 	/* Initialize buffer with packet */
    
-	buffer[`$INSTANCE_NAME`_PACKET_0_POS] = UPPER_NIB | BLH_EH_RWL_RSL;
-    buffer[`$INSTANCE_NAME`_PACKET_1_POS] = UPPER_NIB | BLH_EL_RWL_RSL;
-    buffer[`$INSTANCE_NAME`_PACKET_2_POS] = LOWER_NIB | BLH_EH_RWL_RSL;
-    buffer[`$INSTANCE_NAME`_PACKET_3_POS] = LOWER_NIB | BLH_EL_RWL_RSL;
+	buffer[`$I2C_SLAVE_NAME`_PACKET_0_POS] = UPPER_NIB | BLH_EH_RWL_RSL;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_1_POS] = UPPER_NIB | BLH_EL_RWL_RSL;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_2_POS] = LOWER_NIB | BLH_EH_RWL_RSL;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_3_POS] = LOWER_NIB | BLH_EL_RWL_RSL;
      
 #if(CY_PSOC4)
 	
-	(void) I2C_`$INSTANCE_NAME`_I2CMasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
-                                  I2C_`$INSTANCE_NAME`_I2C_MODE_COMPLETE_XFER);
+	(void) `$I2C_SLAVE_NAME`_I2CMasterWriteBuf(`$I2C_SLAVE_NAME`_I2C_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
+                                  I2C_`$I2C_SLAVE_NAME`_I2C_MODE_COMPLETE_XFER);
 #else    
    	
-	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_PACKET_SIZE, \
-                                  `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
+	(void) `$I2C_MASTER_NAME`_MasterWriteBuf(`$I2C_SLAVE_NAME`_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
+                                  `$I2C_MASTER_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
 
-	CyDelayUs(`$INSTANCE_NAME`_CMD_DELAY_US);
+	CyDelayUs(`$I2C_SLAVE_NAME`_CMD_DELAY_US);
 }
 
 /*******************************************************************************
-*  Function Name: `$INSTANCE_NAME`_WrtCntrlUpNib
+*  Function Name: `$I2C_SLAVE_NAME`_WrtCntrlUpNib
 ********************************************************************************
 *
 * Summary:
@@ -371,38 +371,38 @@ void `$INSTANCE_NAME`_WriteControl(uint8 cByte) `=ReentrantKeil($INSTANCE_NAME .
 *	and RW input held Low while the K input or Back Light (BL) input is held High.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_WrtCntrlUpNib(uint8 cByte) `=ReentrantKeil($INSTANCE_NAME . "_WrtCntrlUpNib")`
+void `$I2C_SLAVE_NAME`_WrtCntrlUpNib(uint8 cByte) `=ReentrantKeil($I2C_SLAVE_NAME . "_WrtCntrlUpNib")`
 {
-    uint8 buffer[`$INSTANCE_NAME`_UPPER_NIB_BUFFER_SIZE], UPPER_NIB;
+    uint8 buffer[`$I2C_SLAVE_NAME`_UPPER_NIB_BUFFER_SIZE], UPPER_NIB;
 	uint8 BLH_EH_RWL_RSL, BLH_EL_RWL_RSL;
 	
-	UPPER_NIB = cByte & `$INSTANCE_NAME`_UPPER_NIB_MASK;
+	UPPER_NIB = cByte & `$I2C_SLAVE_NAME`_UPPER_NIB_MASK;
 	
-	BLH_EH_RWL_RSL = `$INSTANCE_NAME`_BLH + `$INSTANCE_NAME`_EH;
-	BLH_EL_RWL_RSL = `$INSTANCE_NAME`_BLH;
+	BLH_EH_RWL_RSL = `$I2C_SLAVE_NAME`_BLH + `$I2C_SLAVE_NAME`_EH;
+	BLH_EL_RWL_RSL = `$I2C_SLAVE_NAME`_BLH;
 	
 	/* Initialize buffer with packet */
    
-	buffer[`$INSTANCE_NAME`_PACKET_0_POS] = UPPER_NIB | BLH_EH_RWL_RSL;
-    buffer[`$INSTANCE_NAME`_PACKET_1_POS] = UPPER_NIB | BLH_EL_RWL_RSL;
+	buffer[`$I2C_SLAVE_NAME`_PACKET_0_POS] = UPPER_NIB | BLH_EH_RWL_RSL;
+    buffer[`$I2C_SLAVE_NAME`_PACKET_1_POS] = UPPER_NIB | BLH_EL_RWL_RSL;
      
 #if(CY_PSOC4)
 	
-	(void) I2C_`$INSTANCE_NAME`_I2CMasterWriteBuf(`$INSTANCE_NAME`_I2C_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_UPPER_NIB_PACKET_SIZE, \
-                                  I2C_`$INSTANCE_NAME`_I2C_MODE_COMPLETE_XFER);
+	(void) I2C_`$I2C_SLAVE_NAME`_I2CMasterWriteBuf(`$I2C_SLAVE_NAME`_I2C_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_UPPER_NIB_PACKET_SIZE, \
+                                  I2C_`$I2C_SLAVE_NAME`_I2C_MODE_COMPLETE_XFER);
 	
 #else    
    	
-	(void) `$INSTANCE_NAME`_MasterWriteBuf(`$INSTANCE_NAME`_SLAVE_ADDR, buffer, `$INSTANCE_NAME`_UPPER_NIB_PACKET_SIZE, \
-                                  `$INSTANCE_NAME`_MODE_COMPLETE_XFER);
+	(void) `$I2C_MASTER_NAME`_MasterWriteBuf(`$I2C_SLAVE_NAME`_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_UPPER_NIB_PACKET_SIZE, \
+                                  `$I2C_MASTER_NAME`_MODE_COMPLETE_XFER);
 
 #endif /*PSOC4*/ 
 	
-	CyDelayUs(`$INSTANCE_NAME`_CMD_DELAY_US);
+	CyDelayUs(`$I2C_SLAVE_NAME`_CMD_DELAY_US);
 
 }
 /*******************************************************************************
-* Function Name: `$INSTANCE_NAME`_IsReady
+* Function Name: `$I2C_SLAVE_NAME`_IsReady
 ********************************************************************************
 *
 * Summary:
@@ -418,17 +418,17 @@ void `$INSTANCE_NAME`_WrtCntrlUpNib(uint8 cByte) `=ReentrantKeil($INSTANCE_NAME 
 *  Changes pins to High-Z.
 *
 *******************************************************************************/
-void `$INSTANCE_NAME`_IsReady(void) `=ReentrantKeil($INSTANCE_NAME . "_IsReady")`
+void `$I2C_SLAVE_NAME`_IsReady(void) `=ReentrantKeil($I2C_SLAVE_NAME . "_IsReady")`
 {
    
 	CyDelay(1u);
 	
 }
 
-#if(`$INSTANCE_NAME`_CONVERSION_ROUTINES == 1u)
+#if(`$I2C_SLAVE_NAME`_CONVERSION_ROUTINES == 1u)
 
     /*******************************************************************************
-    *  Function Name: `$INSTANCE_NAME`_PrintInt8
+    *  Function Name: `$I2C_SLAVE_NAME`_PrintInt8
     ********************************************************************************
     *
     * Summary:
@@ -441,17 +441,17 @@ void `$INSTANCE_NAME`_IsReady(void) `=ReentrantKeil($INSTANCE_NAME . "_IsReady")
     *  None.
     *
     *******************************************************************************/
-    void `$INSTANCE_NAME`_PrintInt8(uint8 value) `=ReentrantKeil($INSTANCE_NAME . "_PrintInt8")`
+    void `$I2C_SLAVE_NAME`_PrintInt8(uint8 value) `=ReentrantKeil($I2C_SLAVE_NAME . "_PrintInt8")`
     {
-        static char8 const CYCODE `$INSTANCE_NAME`_hex[16u] = "0123456789ABCDEF";
+        static char8 const CYCODE `$I2C_SLAVE_NAME`_hex[16u] = "0123456789ABCDEF";
         
-        `$INSTANCE_NAME`_PutChar((char8) `$INSTANCE_NAME`_hex[value >> `$INSTANCE_NAME`_BYTE_UPPER_NIBBLE_SHIFT]);
-        `$INSTANCE_NAME`_PutChar((char8) `$INSTANCE_NAME`_hex[value & `$INSTANCE_NAME`_BYTE_LOWER_NIBBLE_MASK]);
+        `$I2C_SLAVE_NAME`_PutChar((char8) `$I2C_SLAVE_NAME`_hex[value >> `$I2C_SLAVE_NAME`_BYTE_UPPER_NIBBLE_SHIFT]);
+        `$I2C_SLAVE_NAME`_PutChar((char8) `$I2C_SLAVE_NAME`_hex[value & `$I2C_SLAVE_NAME`_BYTE_LOWER_NIBBLE_MASK]);
     }
 
 
     /*******************************************************************************
-    *  Function Name: `$INSTANCE_NAME`_PrintInt16
+    *  Function Name: `$I2C_SLAVE_NAME`_PrintInt16
     ********************************************************************************
     *
     * Summary:
@@ -464,15 +464,15 @@ void `$INSTANCE_NAME`_IsReady(void) `=ReentrantKeil($INSTANCE_NAME . "_IsReady")
     *  None.
     *
     *******************************************************************************/
-    void `$INSTANCE_NAME`_PrintInt16(uint16 value) `=ReentrantKeil($INSTANCE_NAME . "_PrintInt16")`
+    void `$I2C_SLAVE_NAME`_PrintInt16(uint16 value) `=ReentrantKeil($I2C_SLAVE_NAME . "_PrintInt16")`
     {
-        `$INSTANCE_NAME`_PrintInt8((uint8)(value >> `$INSTANCE_NAME`_U16_UPPER_BYTE_SHIFT));
-        `$INSTANCE_NAME`_PrintInt8((uint8)(value & `$INSTANCE_NAME`_U16_LOWER_BYTE_MASK));
+        `$I2C_SLAVE_NAME`_PrintInt8((uint8)(value >> `$I2C_SLAVE_NAME`_U16_UPPER_BYTE_SHIFT));
+        `$I2C_SLAVE_NAME`_PrintInt8((uint8)(value & `$I2C_SLAVE_NAME`_U16_LOWER_BYTE_MASK));
     }
 
 
     /*******************************************************************************
-    *  Function Name: `$INSTANCE_NAME`_PrintNumber
+    *  Function Name: `$I2C_SLAVE_NAME`_PrintNumber
     ********************************************************************************
     *
     * Summary:
@@ -485,24 +485,24 @@ void `$INSTANCE_NAME`_IsReady(void) `=ReentrantKeil($INSTANCE_NAME . "_IsReady")
     *  None.
     *
     *******************************************************************************/
-    void `$INSTANCE_NAME`_PrintNumber(uint16 value) `=ReentrantKeil($INSTANCE_NAME . "_PrintNumber")`
+    void `$I2C_SLAVE_NAME`_PrintNumber(uint16 value) `=ReentrantKeil($I2C_SLAVE_NAME . "_PrintNumber")`
     {
 
-        char8 number[`$INSTANCE_NAME`_NUMBER_OF_REMAINDERS];
-        char8 temp[`$INSTANCE_NAME`_NUMBER_OF_REMAINDERS];
+        char8 number[`$I2C_SLAVE_NAME`_NUMBER_OF_REMAINDERS];
+        char8 temp[`$I2C_SLAVE_NAME`_NUMBER_OF_REMAINDERS];
 
         uint8 digIndex = 0u;
         uint8 numDigits;
 
         /* Load these in reverse order */
-        while(value >= `$INSTANCE_NAME`_TEN)
+        while(value >= `$I2C_SLAVE_NAME`_TEN)
         {
-            temp[digIndex] = (value % `$INSTANCE_NAME`_TEN) + '0';
-            value /= `$INSTANCE_NAME`_TEN;
+            temp[digIndex] = (value % `$I2C_SLAVE_NAME`_TEN) + '0';
+            value /= `$I2C_SLAVE_NAME`_TEN;
             digIndex++;
         }
 
-        temp[digIndex] = (value % `$INSTANCE_NAME`_TEN) + '0';
+        temp[digIndex] = (value % `$I2C_SLAVE_NAME`_TEN) + '0';
         numDigits = digIndex;
 
         /* While index is greater than or equal to zero copy number
@@ -521,10 +521,10 @@ void `$INSTANCE_NAME`_IsReady(void) `=ReentrantKeil($INSTANCE_NAME . "_IsReady")
         number[numDigits + 1u] = (char8) '\0';
 
         /* Print out number */
-        `$INSTANCE_NAME`_PrintString(&number[0u]);
+        `$I2C_SLAVE_NAME`_PrintString(&number[0u]);
     }
 
-#endif /* `$INSTANCE_NAME`_CONVERSION_ROUTINES == 1u */
+#endif /* `$I2C_SLAVE_NAME`_CONVERSION_ROUTINES == 1u */
 
 
 /* [] END OF FILE */
