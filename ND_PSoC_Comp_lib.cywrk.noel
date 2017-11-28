@@ -162,6 +162,11 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\CharLCD_PCF8574_I2C_v1_0.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\API\CharLCD_I2C.c" />
+<name v=".\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\API\CharLCD_I2C.h" />
+<name v=".\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\TinyPrintf\TinyPrintf.cysym" />
+<name v=".\ND_PSoC_Comp_lib.cylib\CY8CKIT_059\CY8CKIT_059.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -169,7 +174,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="1c0fdbac-dfa6-45d1-8bc7-72166cedac3c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\CharLCD_PCF8574_I2C_v1_0.cysym" Guid="1c0fdbac-dfa6-45d1-8bc7-72166cedac3c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="fbbda46a-ea00-43e7-af79-c43e6266177f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><ToolWindow Key="CyFeedbackPageToolWindow:279a374f-99bb-478b-83b4-831f8474bf17:Component Feedback" Guid="9b2ecaa8-f758-4327-a73c-b2e48693b90f" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\CharLCD_PCF8574_I2C_v1_0.cysym" Guid="1c0fdbac-dfa6-45d1-8bc7-72166cedac3c" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\API\CharLCD_I2C.c" Guid="f8a8a522-5044-4036-b2ac-290a2a99e90b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CharLCD_PCF8574_I2C_v1_0\API\CharLCD_I2C.h" Guid="f018d022-7ee9-4a26-8dff-1d29451985a6" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\Si5351A_SW\Si5351A_SW.cysym" Guid="1f0da08a-d7b7-47de-b03b-c49d1970e448" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\TinyPrintf\TinyPrintf.cysym" Guid="987e8086-979d-4598-8bcc-0e365d80300d" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\PSoC_5LP\Components-dev\ND_PSoC_Comp_lib\ND_PSoC_Comp_lib.cylib\CY8CKIT_059\CY8CKIT_059.cysym" Guid="fbbda46a-ea00-43e7-af79-c43e6266177f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
