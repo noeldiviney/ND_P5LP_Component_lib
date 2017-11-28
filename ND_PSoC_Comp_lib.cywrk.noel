@@ -103,7 +103,7 @@
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Codec_CS4272_I2C_v1_0</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Codec_CS4272_I2C_v1_0\API</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Codec_CS4272_I2C_v1_0\API\CS4272_I2C.c</v>
-<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Codec_CS4272_I2C_v1_0\Codec_CS4272_I2C_v1_0.cysym</v>
+<v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\Codec_CS4272_I2C_v1_0\API\CS4272_I2C.h</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CY8CKIT_059</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\CY8CKIT_059\CY8CKIT_059.cysym</v>
 <v>ND_PSoC_Comp_lib\ND_PSoC_Comp_lib\DualParKK</v>
