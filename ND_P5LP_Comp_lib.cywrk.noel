@@ -180,6 +180,7 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\ND_P5LP_Comp_lib.cylib\Si5351A_IC_SYM\Si5351A_IC_SYM.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\Codec_CS4272_HW\Codec_CS4272_HW.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -187,7 +188,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="2bcb0f5b-a218-4b1e-8549-f30198e0ed6c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A_IC_SYM\Si5351A_IC_SYM.cysym" Guid="2bcb0f5b-a218-4b1e-8549-f30198e0ed6c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="bf744dcd-9f86-4ee3-9882-cee5000bdd80"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A_IC_SYM\Si5351A_IC_SYM.cysym" Guid="2bcb0f5b-a218-4b1e-8549-f30198e0ed6c" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Codec_CS4272_HW\Codec_CS4272_HW.cysym" Guid="bf744dcd-9f86-4ee3-9882-cee5000bdd80" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
