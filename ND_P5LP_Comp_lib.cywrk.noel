@@ -183,6 +183,9 @@
 <OpenDocs>
 <name v=".\ND_P5LP_Comp_lib.cylib\OpAmpDiff_Mirror\OpAmpDiff_Mirror.cysym" />
 <name v=".\ND_P5LP_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\DualParKK\DualParKK.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -190,7 +193,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="d6ed991d-c440-4aeb-9a76-2eaabd8f95ef"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\OpAmpDiff_Mirror\OpAmpDiff_Mirror.cysym" Guid="d6ed991d-c440-4aeb-9a76-2eaabd8f95ef" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" Guid="8c51de96-7c6f-4904-ab57-912ec664a71b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="76b52e3c-28c2-455f-b9fe-3b921f464841"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\OpAmpDiff_Mirror\OpAmpDiff_Mirror.cysym" Guid="d6ed991d-c440-4aeb-9a76-2eaabd8f95ef" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\OpAmpDiff_v0_0\OpAmpDiff_v0_0.cysym" Guid="8c51de96-7c6f-4904-ab57-912ec664a71b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym" Guid="ecea8b40-f175-45e5-a6e9-b71ad26c34e4" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\DualSerAK\DualSerAK.cysym" Guid="d17a29bf-e0b0-4dda-bad0-753b0f1e0069" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\DualParKK\DualParKK.cysym" Guid="76b52e3c-28c2-455f-b9fe-3b921f464841" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
