@@ -9,6 +9,7 @@
  *
  * ========================================
 */
+#include "project.h"
 #include "`$INSTANCE_NAME`_API.h"
 #include "`$INSTANCE_NAME`_Example.h"
 
