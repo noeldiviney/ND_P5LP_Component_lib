@@ -9,9 +9,8 @@
  *
  * ========================================
 */
-#include <project.h>
-#include <TinyPrintf.h>
-#include <TPF_Test.h>
+#include "`$INSTANCE_NAME`_API.h"
+#include "`$INSTANCE_NAME`_Example.h"
 
 #define CR 0x0D
 #define LF 0x0A

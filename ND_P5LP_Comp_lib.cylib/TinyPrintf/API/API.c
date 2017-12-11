@@ -29,7 +29,7 @@
  * OF SUCH DAMAGE.
  */
 
-#include "`$INSTANCE_NAME`.h"
+#include "`$INSTANCE_NAME`_API.h"
 
 typedef void (*putcf) (void*,char);
 static putcf stdout_putf;
