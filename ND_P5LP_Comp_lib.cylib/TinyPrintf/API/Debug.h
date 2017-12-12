@@ -19,7 +19,7 @@
 #define XMIT_BFR_SIZE		256
 
 /* Variable to store UART Received Char */
-uint9						ch;
+uint8						ch;
  /* Transmit Buffer */
  char transmitBuffer[XMIT_BFR_SIZE];
  uint8		outputCounter8  =  0;
