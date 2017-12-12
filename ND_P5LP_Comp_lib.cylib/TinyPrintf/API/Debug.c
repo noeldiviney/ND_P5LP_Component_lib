@@ -14,7 +14,6 @@
 #include "`$INSTANCE_NAME`_Example.h"
 #include "`$INSTANCE_NAME`_Debug.h"
 
-void printMenu
 void printMenu(void)
 {
     // Print Menu.
@@ -43,5 +42,5 @@ void printMenu(void)
 
 void scopeTrig(uint8 val)
 {
-	SCOPE_TRIG(val);
+	Scope_Trig(val);
 }
