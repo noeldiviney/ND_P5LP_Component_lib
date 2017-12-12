@@ -14,28 +14,29 @@
 #include "`$INSTANCE_NAME`_Example.h"
 #include "`$INSTANCE_NAME`_Debug.h"
 
+/* Used to insert a carriage return and line feed */
+#define NewLine() UART_dbg_PutChar(CR); UART_dbg_PutChar(LF);
+
 void printMenu(void)
 {
     // Print Menu.
-	UART_dbg_PutString("**********************);
-    UART_dbg_PutString("*  Menu:");
-	NEWLINE();
+	UART_dbg_PutString("**********************");
+    UART_dbg_PutString("*  Menu");
+	NewLine();
     UART_dbg_PutString("*  M - Print menu");
-	NEWLINE();
+	NewLine();
     UART_dbg_PutString("*  0 - Reset counter");
-	NEWLINE();
+	NewLine();
     UART_dbg_PutString("*  1 - Increment counter");
-	NEWLINE();
+	NewLine();
     UART_dbg_PutString("*  3 - Stop continues counter");
-	NEWLINE();
+	NewLine();
     UART_dbg_PutString("*  4 - Get switch and LED state");
-	NEWLINE();
+	NewLine();
     UART_dbg_PutString("*  5 - Set LED on");
-	NEWLINE();
+	NewLine();
     UART_dbg_PutString("*  6 - Set LED off");
-	NEWLINE();
-	
-	#if 0
+	NewLine();	#if 0
     sprintf(transmitBuffer, "*****************\r\n");
     // Send out the data.
     UART_dbg_PutString(transmitBuffer);
