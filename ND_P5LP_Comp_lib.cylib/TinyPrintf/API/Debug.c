@@ -36,29 +36,8 @@ void printMenu(void)
     UART_dbg_PutString("*  5 - Set LED on");
 	NewLine();
     UART_dbg_PutString("*  6 - Set LED off");
-	NewLine();	#if 0
-    sprintf(transmitBuffer, "*****************\r\n");
-    // Send out the data.
-    UART_dbg_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  Menu:\r\n");
-    UART_dbg_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  M - Print menu\r\n");
-    UART_dbg_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  0 - Reset counter\r\n");
-    UART_dbg_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  1 - Increment counter\r\n");
-    UART_1_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  2 - Start continues counter\r\n");
-    UART_1_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  3 - Stop continues counter\r\n");
-    UART_1_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  4 - Get switch and LED state\r\n");
-    UART_1_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  5 - Set LED on\r\n");
-    UART_1_PutString(transmitBuffer);
-    sprintf(transmitBuffer, "*  6 - Set LED off\r\n");
-    UART_1_PutString(transmitBuffer);
-#endif
+	NewLine();	
+
 }
 
 void scopeTrig(uint8 val)
