@@ -31,7 +31,11 @@ uint8						ch;
  
  const char* strOn			=  "ON";
  const char* strOff			=  "OFF";
- 
+
+ cystatus I2C_status;
+_Bool FlgLCD_ERR;
+
+
 void printMenu(void)
 {
     // Print Menu.
