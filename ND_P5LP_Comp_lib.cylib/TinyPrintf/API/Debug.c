@@ -62,7 +62,7 @@ void printMenu(void)
 void TrigggerScope(void)
 {
 	Scope_Trig_Write(0u);
-    CyDelay(1u);
+    CyDelay(10u);
 	Scope_Trig_Write(1u);
 }
 
@@ -93,7 +93,7 @@ void P5LP_059_Dbg_init(void)
 	printf("%u", I2C_status);
 	NewLine();    
 
-TrigggerScope();    
+//TrigggerScope();    
     I2C_status = I2C_M_FF_MasterStatus();
 	printf("%u", I2C_status);
 	if ((I2C_status != I2C_M_FF_MSTAT_WR_CMPLT) && !FlgLCD_ERR)
