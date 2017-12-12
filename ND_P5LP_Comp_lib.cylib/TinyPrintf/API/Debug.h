@@ -12,7 +12,8 @@
 #if !defined(DEBUG_H)
 #define DEBUG_H
 
-#define <cytypes.h>
+#include <cytypes.h>
+
 #define FALSE				0
 #define TRUE 				1
 #define OFF					0
