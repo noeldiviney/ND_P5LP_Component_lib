@@ -1,5 +1,7 @@
 /* ========================================
  *
+ * File Debug.c
+ *
  * Copyright YOUR COMPANY, THE YEAR
  * All Rights Reserved
  * UNPUBLISHED, LICENSED SOFTWARE.
@@ -40,7 +42,7 @@ void printMenu(void)
 
 }
 
-void scopeTrig(uint8 val)
+void TrigggerScope(uint8 val)
 {
 	Scope_Trig(val);
 }

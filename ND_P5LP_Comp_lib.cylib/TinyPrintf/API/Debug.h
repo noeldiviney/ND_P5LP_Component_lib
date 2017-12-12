@@ -12,6 +12,7 @@
 #if !defined(DEBUG_H)
 #define DEBUG_H
 
+#define <cytypes.h>
 #define FALSE				0
 #define TRUE 				1
 #define OFF					0
@@ -32,6 +33,7 @@ uint8						ch;
  const char* strOff			=  "OFF";
  
  void printMenu();
+ void TrigggerScope(uint8 val);
  #endif		/* DEBUG_H */
  
  /* [] END OF FILE */
