@@ -19,6 +19,19 @@
 /* Used to insert a carriage return and line feed */
 #define NewLine() UART_dbg_PutChar(CR); UART_dbg_PutChar(LF);
 
+/* Variable to store UART Received Char */
+uint8						ch;
+ /* Transmit Buffer */
+ char transmitBuffer[XMIT_BFR_SIZE];
+ uint8		outputCounter8  =  0;
+ uint16		outputCounter16 =  0;
+ uint32		outputCounter32 =  0;
+ uint8		flagPrint		=  FALSE;
+ uint8		flagContCntr	=  FALSE;
+ 
+ const char* strOn			=  "ON";
+ const char* strOff			=  "OFF";
+ 
 void printMenu(void)
 {
     // Print Menu.
