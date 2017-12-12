@@ -22,7 +22,7 @@
 
 
  void printMenu();
- void TrigggerScope(uint8 val);
+ void TrigggerScope(void);
  #endif		/* DEBUG_H */
  
  /* [] END OF FILE */
