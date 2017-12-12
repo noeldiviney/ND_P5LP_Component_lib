@@ -42,7 +42,9 @@ void printMenu(void)
 
 }
 
-void TrigggerScope(uint8 val)
+void TrigggerScope(void)
 {
-	Scope_Trig(val);
+	Scope_Trig_Write(ON);
+    CyDelay(10u);
+	Scope_Trig_Write(OFF);
 }
