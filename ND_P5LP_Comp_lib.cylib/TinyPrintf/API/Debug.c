@@ -57,7 +57,7 @@ void printMenu(void)
 
 void TrigggerScope(void)
 {
-	Scope_Trig_Write(Off);
+	Scope_Trig_Write(0u);
     CyDelay(1u);
-	Scope_Trig_Write(On);
+	Scope_Trig_Write(1u);
 }
