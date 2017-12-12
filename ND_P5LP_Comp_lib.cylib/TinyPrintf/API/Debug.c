@@ -12,7 +12,7 @@
 #include "project.h"
 #include "`$INSTANCE_NAME`_API.h"
 #include "`$INSTANCE_NAME`_Example.h"
-#include "`$INSTANTE_NAME`_Debug.h"
+#include "`$INSTANCE_NAME`_Debug.h"
 
 void printMenu
 void printMenu(void)
