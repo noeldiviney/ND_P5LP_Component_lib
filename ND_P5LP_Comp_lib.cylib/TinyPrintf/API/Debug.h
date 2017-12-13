@@ -22,7 +22,7 @@
 
 
  void printMenu();
- void TrigggerScope(void);
+ void TriggerScope(void);
  void P5LP_059_Dbg_init(void);
 
  #endif		/* DEBUG_H */
