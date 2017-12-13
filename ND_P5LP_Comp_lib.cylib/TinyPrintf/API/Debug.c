@@ -59,11 +59,6 @@ void printMenu(void)
 
 }
 
-void TriggerScope(void)
-{
-	Scope_Trig_Write(0u);
-	Scope_Trig_Write(1u);
-}
 
 void P5LP_059_Dbg_init(void)
 {
@@ -112,6 +107,11 @@ UART_dbg_PutString("LCD OK\n");
 		CharLCD_PCF8574_I2C_PosPrintString(3u,0u,"DEMO of CharLCD_PCF8574_I2C");
    		CyDelay(1u);    
     /* Scope trigger*/
+}
+void TriggerScope(void)
+{
+	Scope_Trig_Write(0u);
+	Scope_Trig_Write(1u);
 }
 
 /* End of File */
