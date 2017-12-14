@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -27,17 +27,12 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Source Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A\API\Si5351A.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API\PCF8574_LCD.h">
 <ExpandedNodeIds>
 <v>ND_P5LP_Comp_lib</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_ERM2004</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_ERM2004\CharLCD_ERM2004.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_PCF8574_I2C_v1_0\API</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_PCF8574_I2C_v1_0\API\CharLCD_I2C.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_PCF8574_I2C_v1_0\API\CharLCD_I2C.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_PCF8574_I2C_v1_0\CharLCD_PCF8574_I2C_v1_0.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_PCF8574_I2C_v1_0\CharLCD_PCF8574_I2C_v1_0.pdf</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Coax_SMB_v0_0</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Codec_CS4272_HW</v>
@@ -70,6 +65,12 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_HW</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_HW\PCF8574_HW.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API\PCF8574_LCD.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API\PCF8574_LCD.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\PCF8574_LCD.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\PCF8574_LCD.pdf</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A\API</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A\API\Si5351A.c</v>
@@ -104,7 +105,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_ERM2004</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_ERM2004\CharLCD_ERM2004.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_PCF8574_I2C_v1_0</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Coax_SMB_v0_0</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Codec_CS4272_HW</v>
@@ -134,6 +134,12 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\OpAmpSingle_v0_0\OpAmpSingle_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_HW</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_HW\PCF8574_HW.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API\PCF8574_LCD.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\API\PCF8574_LCD.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\PCF8574_LCD.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\PCF8574_LCD\PCF8574_LCD.pdf</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A\API</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Si5351A\API\Si5351A.c</v>
@@ -150,11 +156,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Template_v0_0</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Template_v0_0\Template_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TFT_NEXTION_v0_0</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TFT_NEXTION_v0_0\TFT_NEXTION_v0_0.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\API.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\API.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -190,6 +191,7 @@
 <name v=".\ND_P5LP_Comp_lib.cylib\Si5351A\API\Si5351A.c" />
 <name v=".\ND_P5LP_Comp_lib.cylib\Si5351A\API\Si5351A.h" />
 <name v=".\ND_P5LP_Comp_lib.cylib\Si5351A\Si5351A.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\PCF8574_LCD\PCF8574_LCD.cysym" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -197,7 +199,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="49acca55-b356-4290-bfe9-9937a8517c80"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A\API\Si5351A.c" Guid="51b1a132-6be7-4966-afd4-aa547c36420b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A\API\Si5351A.h" Guid="b31c67a2-542d-4495-b91f-0fa866492a80" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A\Si5351A.cysym" Guid="49acca55-b356-4290-bfe9-9937a8517c80" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="a5ecb355-e968-48d3-9555-9187571d5baf"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A\API\Si5351A.c" Guid="51b1a132-6be7-4966-afd4-aa547c36420b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A\API\Si5351A.h" Guid="b31c67a2-542d-4495-b91f-0fa866492a80" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\Si5351A\Si5351A.cysym" Guid="49acca55-b356-4290-bfe9-9937a8517c80" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\PCF8574_LCD\PCF8574_LCD.cysym" Guid="a5ecb355-e968-48d3-9555-9187571d5baf" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
