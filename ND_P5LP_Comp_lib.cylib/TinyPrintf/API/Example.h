@@ -9,8 +9,8 @@
  *
  * ========================================
 */
-#if !defined(TFP_TEST_H)
-#define TFP_TEST_H    
+#if !defined(TINYPRINTF_EXAMPLE_H)
+#define TINYPRINTF_EXAMPLE_H    
 
 #define CR 0x0D
 #define LF 0x0A
@@ -21,5 +21,5 @@
 void putdata ( void* p, char c);
 void tpf_test();
 
-#endif  /* TFP_TEST_H */
+#endif  /* TINYPRINTF_EXAMPLE_H */
 /* [] END OF FILE */

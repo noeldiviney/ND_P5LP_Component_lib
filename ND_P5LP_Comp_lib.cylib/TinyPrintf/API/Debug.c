@@ -36,7 +36,7 @@ uint8						ch;
 _Bool FlgLCD_ERR;
 
 
-void printMenu(void)
+void \$INSTANCE_NAME`_printMenu(void)
 {
     // Print Menu.
 	`$UART_NAME`_PutString("**********************");
@@ -60,7 +60,7 @@ void printMenu(void)
 }
 
 
-void P5LP_059_Dbg_init(void)
+void `$INSTANCE_NAME`_init(void)
 {
 
 	/* Start SCB UART module */
@@ -78,13 +78,6 @@ void P5LP_059_Dbg_init(void)
     /* Run the TinyPrintf example */
     tpf_test();
 
-		
-    
-
-void TriggerScope(void)
-{
-	Scope_Trig_Write(0u);
-	Scope_Trig_Write(1u);
 }
 
 /* End of File */

@@ -9,8 +9,8 @@
  *
  * ========================================
 */
-#if !defined(DEBUG_H)
-#define DEBUG_H
+#if !defined(TINYPRINTF_DEBUG_H)
+#define TINYPRINTF_DEBUG_H
 
 #include <cytypes.h>
 
@@ -21,10 +21,9 @@
 #define XMIT_BFR_SIZE		256
 
 
- void printMenu();
- void TriggerScope(void);
- void P5LP_059_Dbg_init(void);
+ void `$INSTANCE_NAME`_printMenu();
+ void `$INSTANCE_NAME`_init(void);
 
- #endif		/* DEBUG_H */
+ #endif		/* TINYPRINTF_DEBUG_H */
  
  /* [] END OF FILE */

@@ -100,10 +100,6 @@ void tpf_test()
 	sprintf(buffer, "string: %s",s);
 	`$UART_NAME`_PutString(buffer);
 	
-//    for(;;)
-//    {
-
-//    }
 }
 
 
