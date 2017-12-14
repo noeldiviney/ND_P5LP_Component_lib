@@ -21,7 +21,7 @@
 #define XMIT_BFR_SIZE		256
 
 
- void `$INSTANCE_NAME(void);
+ void `$INSTANCE_NAME`(void);
 
  #endif		/* TRIGGER_SCOPE_H */
  
