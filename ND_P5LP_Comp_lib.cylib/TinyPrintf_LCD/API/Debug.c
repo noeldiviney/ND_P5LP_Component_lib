@@ -62,6 +62,7 @@ void printMenu(void)
 
 void P5LP_059_Dbg_init(void)
 {
+	CyGlobalIntEnable; /* Enable global interrupts. */
 
 	/* Start SCB UART module */
 	`$UART_NAME`_Start();
@@ -76,11 +77,37 @@ void P5LP_059_Dbg_init(void)
 	NewLine();
 	NewLine();
     /* Run the TinyPrintf example */
-    tpf_test();
+//    tpf_test();
 
 		
     
+	`$I2C_MASTER_NAME`_Start();
+	`$I2C_PCF8574_LCD_NAME`_Start();
 
+	printf("%u", I2C_status);
+	NewLine();    
+
+//TrigggerScope();    
+    I2C_status = `$I2C_MASTER_NAME`_MasterStatus();
+	printf("%u", I2C_status);
+	if ((I2C_status != `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT) && !FlgLCD_ERR)
+    {
+        FlgLCD_ERR = 1;
+    }
+	
+	if (FlgLCD_ERR && (I2C_status == `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT)) 
+    {
+`$UART_NAME`_PutString("LCD OK\n");
+            CyDelay(250u);
+    }
+		`$I2C_PCF8574_LCD_NAME`_PrintString("Cypress PSoC 4");
+		//`$I2C_PCF8574_LCD_NAME`_Position(1u,2u);
+		`$I2C_PCF8574_LCD_NAME`_PosPrintString(1u,2u,"Hello World");
+		`$I2C_PCF8574_LCD_NAME`_PosPrintString(2u,0u,"CY8CKIT-042 20x4 LCD");
+		`$I2C_PCF8574_LCD_NAME`_PosPrintString(3u,0u,"DEMO of CharLCD_PCF8574_I2C");
+   		CyDelay(1u);    
+    /* Scope trigger*/
+}
 void TriggerScope(void)
 {
 	Scope_Trig_Write(0u);
