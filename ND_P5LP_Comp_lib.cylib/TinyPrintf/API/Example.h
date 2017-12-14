@@ -15,7 +15,7 @@
 #define CR 0x0D
 #define LF 0x0A
     /* Used to insert a carriage return and line feed */
-#define NewLine() UART_dbg_PutChar(CR); UART_dbg_PutChar(LF);
+#define NewLine() `$UART_NAME`_PutChar(CR); `$UART_NAME`_PutChar(LF);
 
     
 void putdata ( void* p, char c);

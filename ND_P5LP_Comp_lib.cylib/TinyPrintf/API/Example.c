@@ -17,13 +17,13 @@
 #define LF 0x0A
 
 /* Used to insert a carriage return and line feed */
-#define NewLine() UART_dbg_PutChar(CR); UART_dbg_PutChar(LF);
+#define NewLine() `$UART_NAME`_PutChar(CR); `$UART_NAME`_PutChar(LF);
 
 /* For use with tinyprintf function */
 /* defines how the function will transmit data */
 void putdata ( void* p, char c)
 {
-	UART_dbg_PutChar(c);
+	`$UART_NAME`_PutChar(c);
 }
 
 
@@ -47,13 +47,13 @@ void tpf_test()
 
 	/* Place your application code here. */
 
-	UART_dbg_PutString("USB_UART\n");
+	`$UART_NAME`_PutString("USB_UART\n");
 	NewLine();
 	NewLine();
 
 	/* printf examples */
 
-	UART_dbg_PutString("printf Examples");
+	`$UART_NAME`_PutString("printf Examples");
 	NewLine();
 	NewLine();
 
@@ -73,37 +73,37 @@ void tpf_test()
 	
 	/* sprintf examples */
 	
-	UART_dbg_PutString("sprintf Examples");
+	`$UART_NAME`_PutString("sprintf Examples");
 	NewLine();
 	NewLine();
 	
 	sprintf(buffer, "signed decimal: %d",d);
-	UART_dbg_PutString(buffer);
+	`$UART_NAME`_PutString(buffer);
 	NewLine();
 	
 	sprintf(buffer, "unsigned decimal: %u",u);
-	UART_dbg_PutString(buffer);
+	`$UART_NAME`_PutString(buffer);
 	NewLine();
 	
 	sprintf(buffer, "lower case hex: %x",u);
-	UART_dbg_PutString(buffer);
+	`$UART_NAME`_PutString(buffer);
 	NewLine();
 	
 	sprintf(buffer, "uppper case hex: %X",u);
-	UART_dbg_PutString(buffer);
+	`$UART_NAME`_PutString(buffer);
 	NewLine();
 	
 	sprintf(buffer, "character: %c",c);
-	UART_dbg_PutString(buffer);
+	`$UART_NAME`_PutString(buffer);
 	NewLine();
 	
 	sprintf(buffer, "string: %s",s);
-	UART_dbg_PutString(buffer);
+	`$UART_NAME`_PutString(buffer);
 	
-    for(;;)
-    {
+//    for(;;)
+//    {
 
-    }
+//    }
 }
 
 
