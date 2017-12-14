@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -27,7 +27,7 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Source Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TriggerScope\API\TriggerScope.h">
 <ExpandedNodeIds>
 <v>ND_P5LP_Comp_lib</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib</v>
@@ -97,19 +97,45 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\Example.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\Example.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\API.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\API.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Debug.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Debug.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Example.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Example.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\TinyPrintf_LCD.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API\API.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API\API.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API\Debug.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API\Debug.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API\Example.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\API\Example.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_v1_1\TinyPrintf_v1_1.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TriggerScope</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TriggerScope\API</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TriggerScope\API\TriggerScope.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TriggerScope\API\TriggerScope.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TriggerScope\TriggerScope.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\WM8731_HW</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\WM8731_HW\WM8731_HW.cysym</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>ND_P5LP_Comp_lib</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_ERM2004</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CharLCD_ERM2004\CharLCD_ERM2004.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Coax_SMB_v0_0</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Coax_SMB_v0_0\Coax_SMB_v0_0.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Codec_CS4272_HW</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Codec_CS4272_HW\Codec_CS4272_HW.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Codec_CS4272_I2C_v1_0</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CY8CKIT_059</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CY8CKIT_059\CY8CKIT_059.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualParKK</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualParKK\DualParKK.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualSerAK</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualSerAK\DualSerAK.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualSerAK_V1</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualSerAK_V1\DualSerAK_V1.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualSerAK_V2</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DualSerAK_V2\DualSerAK_V2.cysym</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Jack_TRRS</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Jack_TRRS\Jack_TRRS.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Jack_TRS</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Jack_TRS\Jack_TRS.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\OpAmpDiff_Mirror</v>
@@ -144,27 +170,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Template_v0_0</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Template_v0_0\Template_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TFT_NEXTION_v0_0</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TFT_NEXTION_v0_0\TFT_NEXTION_v0_0.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\API.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\API.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\Debug.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\Debug.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\Example.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\API\Example.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf\TinyPrintf.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\API.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\API.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Debug.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Debug.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Example.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\API\Example.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\TinyPrintf_LCD\TinyPrintf_LCD.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\WM8731_HW</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\WM8731_HW\WM8731_HW.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -204,6 +209,9 @@
 <name v=".\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Example.h" />
 <name v=".\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\API.c" />
 <name v=".\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\API.h" />
+<name v=".\ND_P5LP_Comp_lib.cylib\TriggerScope\TriggerScope.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\TriggerScope\API\TriggerScope.h" />
+<name v=".\ND_P5LP_Comp_lib.cylib\TriggerScope\API\TriggerScope.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -211,7 +219,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="6f879a39-b638-4109-b7e6-c776d0a65b00"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\TinyPrintf.cysym" Guid="6f879a39-b638-4109-b7e6-c776d0a65b00" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Debug.c" Guid="20aab0f0-a5d2-4af8-9c5f-016924b7a3de" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Debug.h" Guid="5ad8c626-af0e-415b-bf6b-16f210eaf61a" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Example.c" Guid="4c23b84a-11c7-4dc2-b763-e4011d3f5424" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Example.h" Guid="3ae30933-db86-4e18-aac8-a1ce47a289f4" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\API.c" Guid="58ffb2e4-39a8-463d-aeb8-bd125cde5f4b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\API.h" Guid="0011a606-4f27-4fdf-8f52-a519b75fe655" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1287, 761" SelectedTabbedMdiWindow="ff299e21-2f19-486a-bd8e-fa0ce3c35179"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\TinyPrintf.cysym" Guid="6f879a39-b638-4109-b7e6-c776d0a65b00" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Debug.c" Guid="20aab0f0-a5d2-4af8-9c5f-016924b7a3de" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Debug.h" Guid="5ad8c626-af0e-415b-bf6b-16f210eaf61a" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Example.c" Guid="4c23b84a-11c7-4dc2-b763-e4011d3f5424" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Example.h" Guid="3ae30933-db86-4e18-aac8-a1ce47a289f4" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\API.c" Guid="58ffb2e4-39a8-463d-aeb8-bd125cde5f4b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\API.h" Guid="0011a606-4f27-4fdf-8f52-a519b75fe655" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TriggerScope\TriggerScope.cysym" Guid="5af81cfd-8d01-4421-8701-6ab6978e93f2" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TriggerScope\API\TriggerScope.h" Guid="f95fc9c1-f0ec-48c6-b255-01641c5270f8" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TriggerScope\API\TriggerScope.c" Guid="ff299e21-2f19-486a-bd8e-fa0ce3c35179" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
