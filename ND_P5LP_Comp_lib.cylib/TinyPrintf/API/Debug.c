@@ -36,7 +36,7 @@ uint8						ch;
 _Bool FlgLCD_ERR;
 
 
-void \$INSTANCE_NAME`_printMenu(void)
+void `$INSTANCE_NAME`_printMenu(void)
 {
     // Print Menu.
 	`$UART_NAME`_PutString("**********************");
