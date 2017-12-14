@@ -82,7 +82,7 @@ void P5LP_059_Dbg_init(void)
 		
     
 	`$I2C_MASTER_NAME`_Start();
-	CharLCD_PCF8574_I2C_Start();
+	`$I2C_PCF8574_LCD_NAME`_Start();
 
 	printf("%u", I2C_status);
 	NewLine();    
@@ -100,11 +100,11 @@ void P5LP_059_Dbg_init(void)
 `$UART_NAME`_PutString("LCD OK\n");
             CyDelay(250u);
     }
-		`$I2C_PCF8574LCD_NAME`_PrintString("Cypress PSoC 4");
-		//`$I2C_PCF8574LCD_NAME`_Position(1u,2u);
-		`$I2C_PCF8574LCD_NAME`_PosPrintString(1u,2u,"Hello World");
-		`$I2C_PCF8574LCD_NAME`_PosPrintString(2u,0u,"CY8CKIT-042 20x4 LCD");
-		`$I2C_PCF8574LCD_NAME`_PosPrintString(3u,0u,"DEMO of CharLCD_PCF8574_I2C");
+		`$I2C_PCF8574_LCD_NAME`_PrintString("Cypress PSoC 4");
+		//`$I2C_PCF8574_LCD_NAME`_Position(1u,2u);
+		`$I2C_PCF8574_LCD_NAME`_PosPrintString(1u,2u,"Hello World");
+		`$I2C_PCF8574_LCD_NAME`_PosPrintString(2u,0u,"CY8CKIT-042 20x4 LCD");
+		`$I2C_PCF8574_LCD_NAME`_PosPrintString(3u,0u,"DEMO of CharLCD_PCF8574_I2C");
    		CyDelay(1u);    
     /* Scope trigger*/
 }
