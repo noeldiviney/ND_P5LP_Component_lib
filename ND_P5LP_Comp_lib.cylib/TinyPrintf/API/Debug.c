@@ -60,7 +60,7 @@ void `$INSTANCE_NAME`_printMenu(void)
 }
 
 
-void `$INSTANCE_NAME`_init(void)
+void `$INSTANCE_NAME`_Start(void)
 {
 
 	/* Start SCB UART module */

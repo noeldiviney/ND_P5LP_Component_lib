@@ -22,7 +22,7 @@
 
 
  void `$INSTANCE_NAME`_printMenu();
- void `$INSTANCE_NAME`_init(void);
+ void `$INSTANCE_NAME`_Test(void);
 
  #endif		/* TINYPRINTF_DEBUG_H */
  
