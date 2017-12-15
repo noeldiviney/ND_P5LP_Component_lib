@@ -32,7 +32,38 @@ uint8 `$I2C_SLAVE_NAME`_enableState = 0u;
 
 uint8 `$I2C_SLAVE_NAME`_initVar = 0u;
 
+cystatus I2C_status;
+_Bool FlgLCD_ERR;
 
+void `$I2C_SLAVE_NAME`_Test()
+{    
+    I2C_status = `$I2C_MASTER_NAME`_MasterStatus();
+	printf("%u", I2C_status);
+    NewLine();
+	if ((I2C_status != `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT) && !FlgLCD_ERR)
+    {
+        FlgLCD_ERR = 1;
+    }
+	
+	if (FlgLCD_ERR && (I2C_status == `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT)) 
+    {
+        printf("%s","LCD not working");
+        NewLine();
+        CyDelay(250u);
+    }
+    else
+    {
+        printf("%s", "LCD is working");
+        NewLine();
+    }
+
+    `$I2C_SLAVE_NAME`_PrintString("Cypress PSoC 4");
+	//`$I2C_SLAVE_NAME`_Position(1u,2u);
+	`$I2C_SLAVE_NAME`_PosPrintString(1u,2u,"Hello World");
+	`$I2C_SLAVE_NAME`_PosPrintString(2u,0u,"CY8CKIT-042 20x4 LCD");
+	`$I2C_SLAVE_NAME`_PosPrintString(3u,0u,"DEMO of CharLCD_PCF8574_I2C");
+   	CyDelay(1u);    
+}
 /*******************************************************************************
 * Function Name: `$I2C_SLAVE_NAME`_Init
 ********************************************************************************

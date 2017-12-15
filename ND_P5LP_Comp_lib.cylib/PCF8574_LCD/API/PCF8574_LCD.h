@@ -52,6 +52,7 @@ typedef struct
 /***************************************
 *        Function Prototypes
 ***************************************/
+void `$I2C_SLAVE_NAME`_Test(void);
 
 void `$INSTANCE_NAME`_Init(void) `=ReentrantKeil($INSTANCE_NAME . "_Init")`;
 void `$INSTANCE_NAME`_Enable(void) `=ReentrantKeil($INSTANCE_NAME . "_Enable")`;
