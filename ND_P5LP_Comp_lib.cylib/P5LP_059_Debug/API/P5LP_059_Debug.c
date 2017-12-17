@@ -23,7 +23,7 @@ void `$INSTANCE_NAME`_Start(void)
    I2C_M_FF_Start();
    PCF8574_LCD_Start();
     
-   TinyPrintf_init();
+   TinyPrintf_Start();
    
    printf("%s", "Hello World");
    NewLine();
