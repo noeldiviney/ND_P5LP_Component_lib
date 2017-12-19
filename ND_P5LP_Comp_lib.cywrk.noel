@@ -45,7 +45,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DIODE_DualSerAK_V1\DIODE_DualSerAK_V1.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DIODE_DualSerAK_V2</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DIODE_DualSerAK_V2\DIODE_DualSerAK_V2.cysym</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\API</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\API\I2C_S_CS4272.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\API\I2C_S_CS4272.h</v>
@@ -109,6 +108,9 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioIn.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioOut.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioOut.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Config.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -129,10 +131,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DIODE_DualSerAK_V2</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\DIODE_DualSerAK_V2\DIODE_DualSerAK_V2.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\API</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\API\I2C_S_CS4272.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\API\I2C_S_CS4272.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_CS4272\I2C_S_CS4272.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_PCF8574</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\I2C_S_Si5351A</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\IC_CS4272</v>
@@ -164,6 +162,9 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioIn.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioIn.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioOut.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioOut.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -197,20 +198,7 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\ND_P5LP_Comp_lib.cylib\P5LP_059_Debug\API\P5LP_059_Debug.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Debug.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\I2C_S_Si5351A\API\I2C_S_Si5351A.h" />
-<name v=".\ND_P5LP_Comp_lib.cylib\I2C_S_Si5351A\API\I2C_S_Si5351A.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\I2C_S_CS4272\I2C_S_CS4272.cysym" />
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Application.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioControl.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioIn.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioOut.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Application.h" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioControl.h" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioIn.h" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioOut.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -218,7 +206,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1287, 761" SelectedTabbedMdiWindow="41b201a8-cf65-4e41-972d-905022fcdcab"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\P5LP_059_Debug\API\P5LP_059_Debug.c" Guid="876ce945-8bf8-4954-b1fe-83c274ccc7c4" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\TinyPrintf\API\Debug.c" Guid="e7b286ad-f224-4158-af86-f2fc61c29521" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\I2C_S_Si5351A\API\I2C_S_Si5351A.h" Guid="933f5d58-6bd3-479f-ae63-6a323fa4b416" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\I2C_S_Si5351A\API\I2C_S_Si5351A.c" Guid="c95ce38a-a6e1-453e-8cc0-1f9a881c1f54" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\I2C_S_CS4272\I2C_S_CS4272.cysym" Guid="86484767-d1c6-497f-a74d-2aa30b51cf48" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" Guid="766f5c12-b3f4-4c27-9489-b48f736f3b7b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Application.c" Guid="1fa7df9c-3736-4e1f-8620-373b84ec0cef" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioControl.c" Guid="e87c9b1e-d5a9-4bc0-9596-053d2792de7c" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioIn.c" Guid="0f36492e-340a-46b2-871f-1f4042470513" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioOut.c" Guid="3bbead8d-6738-45b6-87f2-972004f667d1" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Application.h" Guid="983de04f-b7ad-4167-bb0b-c82402833ce7" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioControl.h" Guid="3e3936d1-08ae-4fcf-9ae0-5e0a458c77cd" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioIn.h" Guid="cfa9d151-1d91-4fc4-a504-33945748295b" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\AudioOut.h" Guid="41b201a8-cf65-4e41-972d-905022fcdcab" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="501ffd8f-1330-4a04-a12a-6a6024b894b9"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" Guid="501ffd8f-1330-4a04-a12a-6a6024b894b9" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
