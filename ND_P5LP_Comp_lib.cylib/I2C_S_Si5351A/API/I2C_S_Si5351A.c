@@ -20,41 +20,43 @@
 
 
 #if 0
-#define I2C_WRITE 0b11000000		// I2C address for writing to the Si5351A
-#define I2C_READ  0b11000001		// I2C address for reading to the Si5351A
+#define SI5351A_SLAVE_ADDRESS  0b11000000
+#define I2C_READ               0b11000001
+#define I2C_WRITE              0b11000000
 
-uint8_t i2cSendRegister(uint8_t reg, uint8_t data)
+
+uint8_t `$I2C_SLAVE_NAME`_SendRegister(uint8_t reg, uint8_t data)
 {
 	uint8_t stts;
 
-	i2c_start_wait(I2C_WRITE);
+	`$I2C_MASTER_NAME`_MasterSendStart(SI5351A_SLAVE_ADDRESS, I2C_WRITE);
 
-	stts = i2c_write(reg);
+	stts = `$I2C_MASTER_NAME`_MasterWriteByte(reg);
 	if (stts) return 3;
 
-	stts = i2c_write(data);
+	stts = `$I2C_MASTER_NAME`MasterWriteByte(data);
 	if (stts) return 4;
 
-	i2c_stop();	
+	`$I2C_MASTER_NAME`_MasterSendStop();	
 
 	return 0;
 }
 
-uint8_t i2cReadRegister(uint8_t reg, uint8_t *data)
+uint8_t `$I2C_SLAVE_NAME`_ReadRegister(uint8_t reg, uint8_t *data)
 {
 	uint8_t stts;
 
-	i2c_start_wait(I2C_WRITE);
+	`$I2C_MASTER_NAME`_MasterSendStart(SI5351A_SLAVE_ADDRESS, I2C_WRITE);
 
-	stts = i2c_write(reg);
+	stts = `$I2C_MASTER_NAME`MasterWriteByte(reg);
 	if (stts) return 3;
 
-	stts = i2c_rep_start(I2C_READ);
+	stts = `$I2C_MASTER_NAME`_MasterSendRestart(SI5351A_SLAVE_ADDRESS, I2C_READ);
 	if (stts) return 4;
 
-	*data = i2c_readNak();
+	*data = `$I2C_MASTER_NAME`_MasterReadByte();
 
-	i2c_stop();	
+	`$I2C_MASTER_NAME`_MasterSendStop();	
 
 	return 0;
 }
@@ -65,7 +67,7 @@ uint8_t i2cReadRegister(uint8_t reg, uint8_t *data)
 // num is 0..1,048,575 (0xFFFFF)
 // denom is 0..1,048,575 (0xFFFFF)
 //
-void setupPLL(uint8_t pll, uint8_t mult, uint32_t num, uint32_t denom)
+void `$I2C_SLAVE_NAME`_SetupPLL(uint8_t pll, uint8_t mult, uint32_t num, uint32_t denom)
 {
 	uint32_t P1;					// PLL config register P1
 	uint32_t P2;					// PLL config register P2
@@ -77,21 +79,21 @@ void setupPLL(uint8_t pll, uint8_t mult, uint32_t num, uint32_t denom)
 	P2 = (uint32_t)(128 * num - denom * P2);
 	P3 = denom;
 
-	i2cSendRegister(pll + 0, (P3 & 0x0000FF00) >> 8);
-	i2cSendRegister(pll + 1, (P3 & 0x000000FF));
-	i2cSendRegister(pll + 2, (P1 & 0x00030000) >> 16);
-	i2cSendRegister(pll + 3, (P1 & 0x0000FF00) >> 8);
-	i2cSendRegister(pll + 4, (P1 & 0x000000FF));
-	i2cSendRegister(pll + 5, ((P3 & 0x000F0000) >> 12) | ((P2 & 0x000F0000) >> 16));
-	i2cSendRegister(pll + 6, (P2 & 0x0000FF00) >> 8);
-	i2cSendRegister(pll + 7, (P2 & 0x000000FF));
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 0, (P3 & 0x0000FF00) >> 8);
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 1, (P3 & 0x000000FF));
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 2, (P1 & 0x00030000) >> 16);
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 3, (P1 & 0x0000FF00) >> 8);
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 4, (P1 & 0x000000FF));
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 5, ((P3 & 0x000F0000) >> 12) | ((P2 & 0x000F0000) >> 16));
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 6, (P2 & 0x0000FF00) >> 8);
+	`$I2C_SLAVE_NAME`_SendRegister(pll + 7, (P2 & 0x000000FF));
 }
 
 //
 // Set up MultiSynth with integer divider and R divider
 // R divider is the bit value which is OR'ed onto the appropriate register, it is a #define in si5351a.h
 //
-void setupMultisynth(uint8_t synth, uint32_t divider, uint8_t rDiv)
+void `$I2C_SLAVE_NAME`_SetupMultisynth(uint8_t synth, uint32_t divider, uint8_t rDiv)
 {
 	uint32_t P1;					// Synth config register P1
 	uint32_t P2;					// Synth config register P2
@@ -101,14 +103,14 @@ void setupMultisynth(uint8_t synth, uint32_t divider, uint8_t rDiv)
 	P2 = 0;							// P2 = 0, P3 = 1 forces an integer value for the divider
 	P3 = 1;
 
-	i2cSendRegister(synth + 0,   (P3 & 0x0000FF00) >> 8);
-	i2cSendRegister(synth + 1,   (P3 & 0x000000FF));
-	i2cSendRegister(synth + 2,   ((P1 & 0x00030000) >> 16) | rDiv);
-	i2cSendRegister(synth + 3,   (P1 & 0x0000FF00) >> 8);
-	i2cSendRegister(synth + 4,   (P1 & 0x000000FF));
-	i2cSendRegister(synth + 5,   ((P3 & 0x000F0000) >> 12) | ((P2 & 0x000F0000) >> 16));
-	i2cSendRegister(synth + 6,   (P2 & 0x0000FF00) >> 8);
-	i2cSendRegister(synth + 7,   (P2 & 0x000000FF));
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 0,   (P3 & 0x0000FF00) >> 8);
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 1,   (P3 & 0x000000FF));
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 2,   ((P1 & 0x00030000) >> 16) | rDiv);
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 3,   (P1 & 0x0000FF00) >> 8);
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 4,   (P1 & 0x000000FF));
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 5,   ((P3 & 0x000F0000) >> 12) | ((P2 & 0x000F0000) >> 16));
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 6,   (P2 & 0x0000FF00) >> 8);
+	`$I2C_SLAVE_NAME`_SendRegister(synth + 7,   (P2 & 0x000000FF));
 }
 
 //
@@ -118,9 +120,9 @@ void setupMultisynth(uint8_t synth, uint32_t divider, uint8_t rDiv)
 //
 void `$INSTANCE_NAME`_OutputOff(uint8_t clk)
 {
-	i2c_init();
+	`$I2C_MASTER_NAME`_Init();
 	
-	i2cSendRegister(clk, 0x80);		// Refer to SiLabs AN619 to see bit values - 0x80 turns off the output stage
+	`$I2C_SLAVE_NAME`_SendRegister(clk, 0x80);		// Refer to SiLabs AN619 to see bit values - 0x80 turns off the output stage
 
 	i2c_exit();
 }
@@ -163,19 +165,19 @@ void `$INSTANCE_NAME`_SetFrequency(uint32_t frequency)
 	denom = 1048575;				// For simplicity we set the denominator to the maximum 1048575
 
 									// Set up PLL A with the calculated multiplication ratio
-	setupPLL(SI_SYNTH_PLL_A, mult, num, denom);
+	`$I2C_SLAVE_NAME`_SetupPLL(SI_SYNTH_PLL_A, mult, num, denom);
 									// Set up MultiSynth divider 0, with the calculated divider. 
 									// The final R division stage can divide by a power of two, from 1..128. 
 									// reprented by constants SI_R_DIV1 to SI_R_DIV128 (see si5351a.h header file)
 									// If you want to output frequencies below 1MHz, you have to use the 
 									// final R division stage
-	setupMultisynth(SI_SYNTH_MS_0, divider, SI_R_DIV_1);
+	`$I2C_SLAVE_NAME`_SetupMultisynth(SI_SYNTH_MS_0, divider, SI_R_DIV_1);
 									// Reset the PLL. This causes a glitch in the output. For small changes to 
 									// the parameters, you don't need to reset the PLL, and there is no glitch
-	i2cSendRegister(SI_PLL_RESET, 0xA0);	
+	`$I2C_SLAVE_NAME`_SendRegister(SI_PLL_RESET, 0xA0);	
 									// Finally switch on the CLK0 output (0x4F)
 									// and set the MultiSynth0 input to be PLL A
-	i2cSendRegister(SI_CLK0_CONTROL, 0x4F | SI_CLK_SRC_PLL_A);
+	`$I2C_SLAVE_NAME`_SendRegister(SI_CLK0_CONTROL, 0x4F | SI_CLK_SRC_PLL_A);
 
 	i2c_exit();						// Exit I2C
 }
