@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -165,6 +165,7 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\AudioOut.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Config.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -199,6 +200,7 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" />
+<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Config.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -206,7 +208,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1541, 761" SelectedTabbedMdiWindow="501ffd8f-1330-4a04-a12a-6a6024b894b9"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" Guid="501ffd8f-1330-4a04-a12a-6a6024b894b9" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1287, 761" SelectedTabbedMdiWindow="0b33bfb5-7e2f-44b5-8555-4382e0796b2e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" Guid="501ffd8f-1330-4a04-a12a-6a6024b894b9" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Config.h" Guid="0b33bfb5-7e2f-44b5-8555-4382e0796b2e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
