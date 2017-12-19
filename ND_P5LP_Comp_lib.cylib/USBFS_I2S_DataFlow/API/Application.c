@@ -37,10 +37,7 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include <project.h>
-#include <Interrupts.h>
 #include <stdio.h>
-#include <USBInterface.h>
-#include <Gesture.h>
 
 static void HandleUserInputs(uint32 gesture);
 

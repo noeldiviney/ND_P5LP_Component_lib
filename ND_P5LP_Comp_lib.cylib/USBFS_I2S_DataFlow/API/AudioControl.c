@@ -37,8 +37,6 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include <project.h>
-#include <Interrupts.h>
-#include <USBInterface.h>
 
 uint8 newRate = RATE_48KHZ;
 extern uint8 asyncready;
