@@ -23,7 +23,9 @@
 #define SI5351A_SLAVE_ADDRESS  0b11000000
 #define I2C_READ               0b11000001
 #define I2C_WRITE              0b11000000
-
+#define I2C_ACK                0b00000000
+#define I2C_NACK               0b00000001
+    
 
 uint8_t `$I2C_SLAVE_NAME`_SendRegister(uint8_t reg, uint8_t data)
 {
@@ -48,13 +50,13 @@ uint8_t `$I2C_SLAVE_NAME`_ReadRegister(uint8_t reg, uint8_t *data)
 
 	`$I2C_MASTER_NAME`_MasterSendStart(SI5351A_SLAVE_ADDRESS, I2C_WRITE);
 
-	stts = `$I2C_MASTER_NAME`MasterWriteByte(reg);
+	stts = `$I2C_MASTER_NAME`_MasterWriteByte(reg);
 	if (stts) return 3;
 
 	stts = `$I2C_MASTER_NAME`_MasterSendRestart(SI5351A_SLAVE_ADDRESS, I2C_READ);
 	if (stts) return 4;
 
-	*data = `$I2C_MASTER_NAME`_MasterReadByte();
+	*data = `$I2C_MASTER_NAME`_MasterReadByte(I2C_ACK);
 
 	`$I2C_MASTER_NAME`_MasterSendStop();	
 
