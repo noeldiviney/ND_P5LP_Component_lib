@@ -37,15 +37,15 @@
 * Cypress software license agreement.
 *******************************************************************************/
 
-#include <AudioControl.h>
-#include <Interrupts.h>
-#include <Application.h>
-#include <AudioControl.h>
-#include <Config.h>
-#include <AudioOut.h>
-#include <AudioIn.h>
+#include <`$INSTANCE_NAME`_AudioControl.h>
+#include <`$INSTANCE_NAME`_Interrupts.h>
+#include <`$INSTANCE_NAME`_Application.h>
+#include <`$INSTANCE_NAME`_AudioControl.h>
+#include <`$INSTANCE_NAME`_Config.h>
+#include <`$INSTANCE_NAME`_AudioOut.h>
+#include <`$INSTANCE_NAME`_AudioIn.h>
 #include <project.h>
-#include <Codec.h>
+#include <`$INSTANCE_NAME`_Codec.h>
 
 extern uint8 inBuffer[IN_BUFSIZE];
 extern CYBIT audioClkConfigured;

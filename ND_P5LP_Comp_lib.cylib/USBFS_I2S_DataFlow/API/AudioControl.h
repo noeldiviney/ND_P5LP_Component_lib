@@ -40,7 +40,7 @@
 #ifndef AUDIOCONTROL_H
 	#define AUDIOCONTROL_H
 
-	#include <Config.h>
+	#include <`$INSTANCE_NAME`_Config.h>
 	#include <cytypes.h>
 
 	#define FREQUENCY_NOT_SET	0xFF
