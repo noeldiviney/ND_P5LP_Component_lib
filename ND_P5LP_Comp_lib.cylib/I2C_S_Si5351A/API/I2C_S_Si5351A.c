@@ -19,7 +19,7 @@
 
 
 
-#if 0
+#if 1
 #define SI5351A_SLAVE_ADDRESS  0b11000000
 #define I2C_READ               0b11000001
 #define I2C_WRITE              0b11000000
@@ -34,7 +34,7 @@ uint8_t `$I2C_SLAVE_NAME`_SendRegister(uint8_t reg, uint8_t data)
 	stts = `$I2C_MASTER_NAME`_MasterWriteByte(reg);
 	if (stts) return 3;
 
-	stts = `$I2C_MASTER_NAME`MasterWriteByte(data);
+	stts = `$I2C_MASTER_NAME`_MasterWriteByte(data);
 	if (stts) return 4;
 
 	`$I2C_MASTER_NAME`_MasterSendStop();	
@@ -120,11 +120,11 @@ void `$I2C_SLAVE_NAME`_SetupMultisynth(uint8_t synth, uint32_t divider, uint8_t 
 //
 void `$INSTANCE_NAME`_OutputOff(uint8_t clk)
 {
-	`$I2C_MASTER_NAME`_Init();
+//	`$I2C_MASTER_NAME`_Init();
 	
 	`$I2C_SLAVE_NAME`_SendRegister(clk, 0x80);		// Refer to SiLabs AN619 to see bit values - 0x80 turns off the output stage
 
-	i2c_exit();
+//	i2c_exit();
 }
 
 // 
@@ -148,7 +148,7 @@ void `$INSTANCE_NAME`_SetFrequency(uint32_t frequency)
 	uint32_t denom;
 	uint32_t divider;
 
-	i2c_init();						// Initialise the I2C
+//	i2c_init();						// Initialise the I2C
 
 	divider = 900000000 / frequency;// Calculate the division ratio. 900,000,000 is the maximum internal 
 									// PLL frequency: 900MHz
@@ -179,7 +179,7 @@ void `$INSTANCE_NAME`_SetFrequency(uint32_t frequency)
 									// and set the MultiSynth0 input to be PLL A
 	`$I2C_SLAVE_NAME`_SendRegister(SI_CLK0_CONTROL, 0x4F | SI_CLK_SRC_PLL_A);
 
-	i2c_exit();						// Exit I2C
+//	i2c_exit();						// Exit I2C
 }
 #endif  /* #if 0  */
 
