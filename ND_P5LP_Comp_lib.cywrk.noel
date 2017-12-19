@@ -27,7 +27,7 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\Source Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>ND_P5LP_Comp_lib</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib</v>
@@ -111,8 +111,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Config.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Gesture.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Gesture.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Interrupts.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Interrupts.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\USBInterface.c</v>
@@ -120,8 +118,6 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>ND_P5LP_Comp_lib</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CONN_Coax_SMB_v0_0</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CONN_Coax_SMB_v0_0\CONN_Coax_SMB_v0_0.cysym</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\CONN_Jack_TRRS</v>
@@ -172,9 +168,11 @@
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.c</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Codec.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Config.h</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Gesture.c</v>
-<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Gesture.h</v>
 <v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Interrupts.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\Interrupts.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\USBInterface.c</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\API\USBInterface.h</v>
+<v>ND_P5LP_Comp_lib\ND_P5LP_Comp_lib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -209,10 +207,8 @@
 <OpenDocs>
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" />
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Config.h" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Gesture.c" />
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Interrupts.c" />
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\USBInterface.c" />
-<name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Gesture.h" />
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Interrupts.h" />
 <name v=".\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\USBInterface.h" />
 </OpenDocs>
@@ -222,7 +218,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1287, 761" SelectedTabbedMdiWindow="bd507142-ea20-46a6-bca4-134a259d2a74"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" Guid="501ffd8f-1330-4a04-a12a-6a6024b894b9" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Config.h" Guid="0b33bfb5-7e2f-44b5-8555-4382e0796b2e" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Gesture.c" Guid="0f85a3c6-5bdd-40de-925e-0fdff4ce5064" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Interrupts.c" Guid="0484e47b-82b4-4980-943a-e06c21333e6e" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\USBInterface.c" Guid="305649df-13d8-4b7a-986e-95eccc710959" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Gesture.h" Guid="bd507142-ea20-46a6-bca4-134a259d2a74" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Interrupts.h" Guid="72840349-5554-4468-ade1-68499ef58602" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\USBInterface.h" Guid="4662410a-e14b-4007-a75a-09e11ef3d164" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1287, 761" SelectedTabbedMdiWindow="305649df-13d8-4b7a-986e-95eccc710959"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="35842339-ba67-4c17-a56a-431fd05f76fc" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\USBFS_I2S_DataFlow.cysym" Guid="501ffd8f-1330-4a04-a12a-6a6024b894b9" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Config.h" Guid="0b33bfb5-7e2f-44b5-8555-4382e0796b2e" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Interrupts.c" Guid="0484e47b-82b4-4980-943a-e06c21333e6e" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\USBInterface.c" Guid="305649df-13d8-4b7a-986e-95eccc710959" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\Interrupts.h" Guid="72840349-5554-4468-ade1-68499ef58602" /><DocumentWindow Key="E:\cygwin64\home\noel\projects\P5LP\ComponentsDev\ND_P5LP_Component_lib\ND_P5LP_Comp_lib.cylib\USBFS_I2S_DataFlow\API\USBInterface.h" Guid="4662410a-e14b-4007-a75a-09e11ef3d164" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
