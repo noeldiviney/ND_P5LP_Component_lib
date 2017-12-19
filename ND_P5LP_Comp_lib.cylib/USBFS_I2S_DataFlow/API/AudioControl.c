@@ -36,12 +36,6 @@
 * liability. Use of this Software may be limited by and subject to the applicable
 * Cypress software license agreement.
 *******************************************************************************/
-#include <`$INSTANCE_NAME`_Application.h>
-#include <`$INSTANCE_NAME`_AudioControl.h>
-#include <`$INSTANCE_NAME`_AudioOut.h>
-#include <`$INSTANCE_NAME`_AudioIn.h>
-#include <`$INSTANCE_NAME`_Codec.h>
-#include <`$INSTANCE_NAME`_Config.h>
 #include <project.h>
 #include <Interrupts.h>
 #include <USBInterface.h>
