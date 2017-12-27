@@ -40,7 +40,7 @@
 #ifndef APP_H
 	#define APP_H
 		
-	#include "`$INSTANCE_NAME`_Config.h"
+	#include "Config.h"
 	#include <UART_dbg.h>
 		
 	#ifdef TXDEBUG

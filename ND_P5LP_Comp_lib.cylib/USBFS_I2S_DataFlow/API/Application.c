@@ -37,7 +37,7 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include <project.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 static void HandleUserInputs(uint32 gesture);
 
@@ -106,7 +106,7 @@ void InitApp(void)
 	Update_VolumeAudioOut();
 	
 	I2S_Start();	
-	
+#if 0	
 	USBFS_Start(PC_MAC_AUDIO_WITH_VOLUME_DEVICE, USBFS_5V_OPERATION);
     USBDeviceState = USB_INIT_AFTER_ENUMERATION_REQUIRED;
 	
@@ -119,7 +119,7 @@ void InitApp(void)
 	
 	USBFS_LoadInEP(MAC_PC_HID_CONTROL_ENDPOINT, &playlistControlReport, sizeof(playlistControlReport));
 	USBFS_LoadInEP(MAC_PC_HID_CONTROL_ENDPOINT, USBFS_NULL, sizeof(playlistControlReport) );	
-	
+#endif	
 	Async_Feedback_Counter_Start();
 	
 	CapSense_Start();
@@ -182,7 +182,8 @@ void RunApplication(void)
 *******************************************************************************/
 static void HandleUserInputs(uint32 gesture)
 {    
-	static uint32 volUpdateThreshold = 0;
+#if 0
+    static uint32 volUpdateThreshold = 0;
 	static uint8 prevReport;	
 	static bool volumeReport = false;
 	#if (UP_BUTTON_FUNCTION == MIC_MUTE)
@@ -358,7 +359,7 @@ static void HandleUserInputs(uint32 gesture)
 			USBFS_LoadInEP(MAC_PC_HID_CONTROL_ENDPOINT, USBFS_NULL, sizeof(playlistControlReport));
 		}
     }		
-	
+#endif	
 }
 
 /*******************************************************************************
@@ -373,6 +374,7 @@ static void HandleUserInputs(uint32 gesture)
 *  uint8 - status of I2C operation between PSoC 4200L and codec
 *
 *******************************************************************************/
+#if 0
 uint8 Update_VolumeAudioOut(void)
 {
 	uint8 ret = 0;
@@ -466,6 +468,6 @@ uint8 Update_VolumeAudioOut(void)
 	
 	return ret;
 }
-
+#endif
 
 /* [] END OF FILE */

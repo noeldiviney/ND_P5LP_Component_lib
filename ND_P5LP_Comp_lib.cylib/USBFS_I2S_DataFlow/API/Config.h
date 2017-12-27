@@ -36,8 +36,21 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #ifndef CONFIG_H
-	#define CONFIG_H        
+	#define CONFIG_H
 
+    #define TXDEBUG	
+	#define CAPSENSE_ENABLED	
+		
+	/* Constants for explicit and implicit async audio */	
+	#define EXPLICIT_FEEDBACK                      1
+	#define IMPLICIT_FEEDBACK                      0 
+	
+	/* Selection of OS for Volume control module */
+	#define WINDOWS_7_VOLUME_CTL					0
+	#define WINDOWS_10_VOLUME_CTL					1
+	#define MAC_VOLUME_CTL							2
+	#define VOLUME_CTRL								WINDOWS_7_VOLUME_CTL
+#if 0
 	#define TXDEBUG                 `$TXDEBUG`	
 	#define CAPSENSE_ENABLED        `$CAPSENSE_ENABLED`	
 		
@@ -50,7 +63,7 @@
 	#define WINDOWS_10_VOLUME_CTL   `$WIN10_VOL_CTL`	// 1
 	#define MAC_VOLUME_CTL          `$MAC_VOL_CTL`		// 2
 	#define VOLUME_CTRL             `$VOL_CTL`			// WINDOWS_7_VOLUME_CTL
-	
+#endif  /* #if 0 */	
 #endif /* #ifndef CONFIG_H */	
 
 /* [] END OF FILE */
