@@ -21,14 +21,14 @@ void `$INSTANCE_NAME`_Start(void)
     UART_dbg_Start();
 
    I2C_M_FF_Start();
-   PCF8574_LCD_Start();
+   I2C_S_PCF8574_Start();
     
    TinyPrintf_Start();
    
    printf("%s", "Hello World");
    NewLine();
    TriggerScope();
-   PCF8574_LCD_Test();
+   I2C_S_PCF8574_Test();
 }
 
 /* [] END OF FILE */
