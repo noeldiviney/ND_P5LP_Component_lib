@@ -37,7 +37,7 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include "project.h"
-
+#if 0
 extern volatile uint8 USBFS_interfaceSetting[];
 
 extern uint8 USBFS_initVar;
@@ -297,5 +297,5 @@ void processAsyncFeedbackTransfer(uint32 clearFlag)
 		}
 	}
 }
-
+#endif  /* #if 0 */
 /* [] END OF FILE */

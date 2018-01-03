@@ -37,7 +37,7 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include <project.h>
-
+#if 0
 uint8 newRate = RATE_48KHZ;
 extern uint8 asyncready;
 
@@ -202,5 +202,5 @@ void HandleSamplingFrequencyChangeRequest(void)
         
     }
 }
-
+#endif  /* #if 0  */
 /* [] END OF FILE */

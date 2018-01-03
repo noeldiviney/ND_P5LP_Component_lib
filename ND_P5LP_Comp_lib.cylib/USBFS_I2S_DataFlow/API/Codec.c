@@ -36,6 +36,8 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include "project.h"
+
+#if 0
 #include "Codec.h"
 #include "cytypes.h"
 #include "CodecI2CM_I2C.h"
@@ -397,4 +399,6 @@ uint8 Codec_PowerOnControl(uint32 powerOnMask)
 	Codec_powerControlSetting &= ~powerOnMask;
     return Codec_SendData(CODEC_REG_POWER_CTRL, Codec_powerControlSetting);
 }
+
+#endif  /*  #if 0  */
 /* [] END OF FILE */

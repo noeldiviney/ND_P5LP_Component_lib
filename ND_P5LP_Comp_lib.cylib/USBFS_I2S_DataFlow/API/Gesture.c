@@ -37,6 +37,8 @@
 *******************************************************************************/
 
 #include "project.h"
+
+#if 0
 #include "CapSense_CSHL.h"
 #include "stdbool.h"
 #include "stdlib.h"
@@ -1164,4 +1166,5 @@ tGestureId Gestures_Process(uint32 radius, int32 theta)
 	
 	return gesture;
 }
+#endif  /*  #if 0  */
 /* [] END OF FILE */

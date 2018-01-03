@@ -37,7 +37,7 @@
 * Cypress software license agreement.
 *******************************************************************************/
 #include <project.h>
-
+#if 0
 extern uint16 inCnt;
 extern uint16 inLevel;
 extern uint16 inUsbCount;
@@ -153,6 +153,6 @@ CY_ISR(TxDMADone_Interrupt)
 		Stop_I2S_Tx();
 	}
 }
-
+#endif  /*  #if 0  */
 
 /* [] END OF FILE */

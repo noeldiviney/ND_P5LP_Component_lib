@@ -40,7 +40,7 @@
 #include <project.h>
 
 extern uint8 outBuffer[];
-
+#if 0
 CYBIT resetTx = 0;
 CYBIT outPlaying = 0;
 uint16 outLevel = 0;
@@ -252,5 +252,5 @@ void Stop_I2S_Tx(void) CYREENTRANT
         outPlaying = 0;
     }    
 }
-
+#endif /* #if 0  */
 /* [] END OF FILE */
