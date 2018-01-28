@@ -18,16 +18,18 @@
  */
 void `$INSTANCE_NAME`_Start(void)
 {
-    UART_dbg_Start();
+   UART_dbg_Start();
 
-   I2C_M_FF_Start();
-   I2C_S_PCF8574_Start();
-    
    TinyPrintf_Start();
    
    printf("%s", "Hello World");
    NewLine();
    TriggerScope();
+    
+    
+   I2C_M_FF_Start();
+   I2C_S_PCF8574_Start();
+    
    I2C_S_PCF8574_Test();
 }
 
