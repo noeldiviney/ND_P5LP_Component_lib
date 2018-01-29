@@ -57,7 +57,7 @@ void `$I2C_SLAVE_NAME`_Test()
         printf("%s", "LCD is working");
         NewLine();
     }
-
+	`$I2C_SLAVE_NAME`_Position(0u,1u);
     `$I2C_SLAVE_NAME`_PrintString("Cypress PSoC 4");
 	//`$I2C_SLAVE_NAME`_Position(1u,2u);
 	`$I2C_SLAVE_NAME`_PosPrintString(1u,2u,"Hello World");
