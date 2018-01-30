@@ -20,7 +20,7 @@ void `$INSTANCE_NAME`_Start(void)
 {
    `$UART_NAME`_Start();
 
-   TinyPrintf_Start();
+   `$PRINTF_NAME`_Start();
    
    printf("%s", "Hello World");
    NewLine();
