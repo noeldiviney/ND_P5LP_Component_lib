@@ -207,7 +207,7 @@ extern uint8 const CYCODE `$INSTANCE_NAME`_customFonts[64u];
 ***************************************/
 /* I2C 7 bit slave address for the PCF8574A A0=1,A1=1,A2=1*/
 
-#define `$INSTANCE_NAME`_SLAVE_ADDR  		(0x3Fu)
+#define `$INSTANCE_NAME`_SLAVE_ADDR  	        `$I2C_SLAVE_ADDR`   /* (0x3Fu) */
 
 /* Buffer and packet size */
 #define `$INSTANCE_NAME`_UPPER_NIB_BUFFER_SIZE	(2u)
