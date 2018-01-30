@@ -195,7 +195,7 @@ extern uint8 const CYCODE `$INSTANCE_NAME`_customFonts[64u];
 #define `$INSTANCE_NAME`_U16_LOWER_BYTE_MASK      (0xFFu)
 #define `$INSTANCE_NAME`_CUSTOM_CHAR_SET_LEN      (0x40u)
 
-#define `$INSTANCE_NAME`_CMD_DELAY_US			 (2000u)/*  2.0 msec Delay  */
+#define `$INSTANCE_NAME`_CMD_DELAY_US			 (8000u)/*  2.0 msec Delay  */
 #define `$INSTANCE_NAME`_DATA_DELAY_US			 (500u) /*  0.50 msec Delay */
 #define `$INSTANCE_NAME`_NIB_DELAY_US			 (100u) /*  0.10 msec Delay */
 #define `$INSTANCE_NAME`_INIT_DELAY			  	 (20u)  /*  20.0 msec Delay */
