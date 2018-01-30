@@ -339,7 +339,7 @@ void `$I2C_SLAVE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($I2C_SLAVE_NAME . 
 	(void) `$I2C_MASTER_NAME`_I2CMasterWriteBuf(`$I2C_SLAVE_NAME`_I2C_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
                                   I2C_`$I2C_SLAVE_NAME`_I2C_MODE_COMPLETE_XFER);
     /* Waits until master completes write transfer */
-    while (0u == (`$I2C_MASTER_NAME`_MasterStatus() & I2C_CharLCD_I2C_MSTAT_WR_CMPLT))
+    while (0u == (`$I2C_MASTER_NAME`_MasterStatus() & `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT))
     {
     }
 	
@@ -351,7 +351,7 @@ void `$I2C_SLAVE_NAME`_WriteData(uint8 dByte) `=ReentrantKeil($I2C_SLAVE_NAME . 
 	(void) `$I2C_MASTER_NAME`_MasterWriteBuf(`$I2C_SLAVE_NAME`_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
                                   `$I2C_MASTER_NAME`_MODE_COMPLETE_XFER);
     /* Waits until master completes write transfer */
-    while (0u == (`$I2C_MASTER_NAME`_MasterStatus() & I2C_CharLCD_MSTAT_WR_CMPLT))
+    while (0u == (`$I2C_MASTER_NAME`_MasterStatus() & `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT))
     {
     }
 	
@@ -397,7 +397,7 @@ void `$I2C_SLAVE_NAME`_WriteControl(uint8 cByte) `=ReentrantKeil($I2C_SLAVE_NAME
 	(void) `$I2C_SLAVE_NAME`_I2CMasterWriteBuf(`$I2C_SLAVE_NAME`_I2C_SLAVE_ADDR, buffer, `$I2C_SLAVE_NAME`_PACKET_SIZE, \
                                   I2C_`$I2C_SLAVE_NAME`_I2C_MODE_COMPLETE_XFER);
     /* Waits until master completes write transfer */
-    while (0u == (I2C_CharLCD_MasterStatus() & I2C_CharLCD_MSTAT_WR_CMPLT))
+    while (0u == (I2C_CharLCD_MasterStatus() & `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT))
     {
     }
 	
@@ -410,7 +410,7 @@ void `$I2C_SLAVE_NAME`_WriteControl(uint8 cByte) `=ReentrantKeil($I2C_SLAVE_NAME
                                   `$I2C_MASTER_NAME`_MODE_COMPLETE_XFER);
 
     /* Waits until master completes write transfer */
-    while (0u == (I2C_CharLCD_MasterStatus() & I2C_CharLCD_MSTAT_WR_CMPLT))
+    while (0u == (I2C_CharLCD_MasterStatus() & `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT))
     {
     }
 	
@@ -452,7 +452,7 @@ void `$I2C_SLAVE_NAME`_WrtCntrlUpNib(uint8 cByte) `=ReentrantKeil($I2C_SLAVE_NAM
                                   I2C_`$I2C_SLAVE_NAME`_I2C_MODE_COMPLETE_XFER);
 	
     /* Waits until master completes write transfer */
-    while (0u == (I2C_CharLCD_MasterStatus() & I2C_CharLCD_MSTAT_WR_CMPLT))
+    while (0u == (I2C_CharLCD_MasterStatus() & `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT))
     {
     }
 	
@@ -465,7 +465,7 @@ void `$I2C_SLAVE_NAME`_WrtCntrlUpNib(uint8 cByte) `=ReentrantKeil($I2C_SLAVE_NAM
                                   `$I2C_MASTER_NAME`_MODE_COMPLETE_XFER);
 
     /* Waits until master completes write transfer */
-    while (0u == (I2C_CharLCD_MasterStatus() & I2C_CharLCD_MSTAT_WR_CMPLT))
+    while (0u == (I2C_CharLCD_MasterStatus() & `$I2C_MASTER_NAME`_MSTAT_WR_CMPLT))
     {
     }
 	
