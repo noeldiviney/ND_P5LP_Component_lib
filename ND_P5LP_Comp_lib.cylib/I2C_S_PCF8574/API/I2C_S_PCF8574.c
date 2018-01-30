@@ -181,7 +181,6 @@ void `$I2C_SLAVE_NAME`_Start(void) `=ReentrantKeil($I2C_SLAVE_NAME . "_Start")`
 
     /* Turn on the LCD */
     `$I2C_SLAVE_NAME`_Enable();
-    `$I2C_SLAVE_NAME`_Test();
 }
 
 
