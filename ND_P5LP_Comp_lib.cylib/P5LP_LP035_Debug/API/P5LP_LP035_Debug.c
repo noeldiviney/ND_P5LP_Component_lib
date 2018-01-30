@@ -30,7 +30,7 @@ void `$INSTANCE_NAME`_Start(void)
    `$I2C_MASTER_NAME`_Start();
    `$I2C_SLAVE_NAME`_Start();
     
-   `$I2C_MASTER_NAME`_Test();
+   `$I2C_SLAVE_NAME`_Test();
 }
 
 /* [] END OF FILE */
