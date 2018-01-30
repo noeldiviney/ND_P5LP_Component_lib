@@ -229,8 +229,9 @@ extern uint8 const CYCODE `$INSTANCE_NAME`_customFonts[64u];
 
 /* I2C LOGIC CONSTANTS */
 
+#define CharLCD_CMD_TO_CMD_DELAY_US				(1000u)/* 1.0 msec Delay */
 #define `$INSTANCE_NAME`_BLH				    (0x08u)/* Back Light On */
-#define `$INSTANCE_NAME`_EH					(0x04u)/* E Input High */
+#define `$INSTANCE_NAME`_EH						(0x04u)/* E Input High */
 #define `$INSTANCE_NAME`_RWH				    (0x02u)/* RW Input High */
 #define `$INSTANCE_NAME`_RSH				    (0x01u)/* RS Input High */
 
